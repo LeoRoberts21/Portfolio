@@ -29,9 +29,8 @@ $paddingBase: 0px 100px 0px 100px;
 
 #whole-home {
   display: flex;
-height: 630px;
+  height: 630px;
 }
-
 
 .home-left {
   padding-left: 100px;
@@ -53,35 +52,30 @@ h1 {
   flex-direction: column;
   padding-top: 50px;
   padding-left: 50px;
-  width:390px;
+  width: 390px;
   justify-content: space-between;
 }
-
-.tuesday {
-}
-
 
 /*-------PATTERN-------*/
 
 .whole-pattern {
   transform: scale(0.42);
   width: fit-content;
-  position:relative;
-  top:-200px;
+  position: relative;
+  top: -200px;
   translate: -29%;
-} 
+}
 
 .row1 {
   display: flex;
   flex-direction: row;
-  width:fit-content;
-
+  width: fit-content;
 }
-  .shapes:hover {
-      transform: scale(1.35);
-      transition: 70ms;
-      z-index : 100;
-  }
+.shapes:hover {
+  transform: scale(1.35);
+  transition: 70ms;
+  z-index: 100;
+}
 
 .two-rows {
   width: 270px;
@@ -90,8 +84,7 @@ h1 {
 .row2 {
   display: flex;
   flex-direction: row;
-  width:fit-content;
-
+  width: fit-content;
 }
 
 .two-cols {
@@ -102,13 +95,57 @@ h1 {
 .row3 {
   display: flex;
   flex-direction: row;
-  width:fit-content;
+  width: fit-content;
 }
-
 
 /*-------PROJECTS-------*/
 
 h2 {
   padding: $paddingBase;
-  padding-top: 200px;
+  padding-top: 150px;
+  font-size: 5em;
+}
+
+.selected-projects {
+  padding: $paddingBase;
+  padding-top: 50px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.project-image {
+  background-color: black;
+  height: 516px;
+  width: 940px;
+}
+
+.project-caption {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 150px 100px;
+}
+
+/*---------CONTACT--------*/
+
+.gradient {
+  z-index: 0;
+  width: 1440px;
+  position: absolute;
+  height: 630px;
+  opacity: 40%;
+}
+
+h3 {
+  padding: $paddingBase;
+  font-size: 200px;
+  line-height: 175px;
+  letter-spacing: -10px;
+  z-index: 1;
+  position: relative;
+  top: 220px;
+  color: rgb(255, 255, 255);
+}
+
+.dot {
+  color: rgb(230, 102, 102);
 }
