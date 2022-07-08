@@ -49,11 +49,16 @@ padding-left: 100px;
 }
 /*--------NavBar1--------*/
 
+.navbar2 {
+  height: 75px;
+  transition:all 1s linear;
+}
 
 .nav--hidden {
   position: absolute !important;
   top: -999px !important;
   left: -999px !important;
+  transition:all 0.75s linear;
 }
 
 
@@ -152,6 +157,7 @@ h2 {
   background-color: black;
   height: 516px;
   width: 940px;
+  object-fit: cover;
 }
 
 .project-caption {
@@ -172,12 +178,12 @@ h2 {
 
 h3 {
   padding: $paddingBase;
-  font-size: 200px;
-  line-height: 175px;
+  font-size: 150px;
+  line-height: 115px;
   letter-spacing: -10px;
   z-index: 1;
   position: relative;
-  top: 220px;
+  top: 340px;
   color: rgb(255, 255, 255);
 }
 

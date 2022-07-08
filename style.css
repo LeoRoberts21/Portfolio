@@ -52,10 +52,18 @@ html, body {
 }
 
 /*--------NavBar1--------*/
+.navbar2 {
+  height: 75px;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
 .nav--hidden {
   position: absolute !important;
   top: -999px !important;
   left: -999px !important;
+  -webkit-transition: all 0.75s linear;
+  transition: all 0.75s linear;
 }
 
 /*--------Home--------*/
@@ -197,6 +205,8 @@ h2 {
   background-color: black;
   height: 516px;
   width: 940px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .project-caption {
@@ -220,12 +230,12 @@ h2 {
 
 h3 {
   padding: 0px 100px 0px 100px;
-  font-size: 200px;
-  line-height: 175px;
+  font-size: 150px;
+  line-height: 115px;
   letter-spacing: -10px;
   z-index: 1;
   position: relative;
-  top: 220px;
+  top: 340px;
   color: white;
 }
 
