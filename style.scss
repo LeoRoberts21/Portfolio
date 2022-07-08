@@ -1,12 +1,13 @@
-/*--------Variables--------*/
+/*--------Variables------------------------------*/
 
 $paddingBase: 0px 100px 0px 100px;
 $helvetica : "HelveticaNeue-Light"; 
 
 
-/*--------Mixins--------*/
+/*--------Mixins------------------------------*/
 
-/*--------Start--------*/
+/*--------Start------------------------------*/
+
 
 .container {
   width: 100%;
@@ -21,7 +22,7 @@ html, body {
 }
 
 
-/*--------NavBar1--------*/
+/*--------NavBar1------------------------------*/
 
 .nav-bar {
   display: flex;
@@ -39,7 +40,9 @@ html, body {
 
 #nav-left{
 padding-left: 100px;
+
 }
+
 
 #nav-right {
   display: flex;
@@ -47,22 +50,23 @@ padding-left: 100px;
   gap: 50px;
   padding-right: 100px;
 }
-/*--------NavBar1--------*/
+
+
+/*--------NavBar1------------------------------*/
 
 .navbar2 {
   height: 75px;
-  transition:all 1s linear;
 }
 
 .nav--hidden {
   position: absolute !important;
   top: -999px !important;
   left: -999px !important;
-  transition:all 0.75s linear;
+
 }
 
 
-/*--------Home--------*/
+/*--------Home------------------------------*/
 
 #whole-home {
   display: flex;
@@ -72,7 +76,7 @@ padding-left: 100px;
 
 .home-left {
   padding-left: 100px;
-  padding-top: 50px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   max-height: 800px;
@@ -81,8 +85,15 @@ padding-left: 100px;
 }
 
 h1 {
-  font-size: 8em;
+  font-size: 10em;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  height: 190px;
+}
+
+.intro {
+  padding-left: 20px;
 }
 
 .home-right {
@@ -92,11 +103,11 @@ h1 {
   padding-top: 50px;
   padding-right: 100px;
   width: 390px;
-  height: 95%;
+  height: 94%;
   justify-content: space-between;
 }
 
-/*-------PATTERN-------*/
+/*-------PATTERN------------------------------*/
 
 .whole-pattern {
   transform: scale(0.42);
@@ -138,12 +149,51 @@ h1 {
   width: fit-content;
 }
 
-/*-------PROJECTS-------*/
+/*-------ABOUT LINK------------------------------*/
+
+.about-link {
+  font-size: 150px;
+margin-bottom: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.whoami {
+  margin: 0;
+  align-items: center;
+  margin-bottom: 300px;
+}
+.aboutme{
+  text-align: center;
+  height: 400px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.me {
+  width: 150px;
+  height: auto;
+  position: relative;
+  top: 200px;
+  right: 125px;
+  border-radius: 25px;
+  border: 100px;
+}
+
+.hide-me {
+  opacity:0%;
+}
+
+
+
+/*-------PROJECTS------------------------------*/
 
 h2 {
   padding: $paddingBase;
-  padding-top: 150px;
   font-size: 5em;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0%;
 }
 
 .selected-projects {
@@ -166,27 +216,34 @@ h2 {
   padding: 15px 150px 100px;
 }
 
-/*---------CONTACT--------*/
+/*---------CONTACT------------------------------*/
+
 
 .gradient {
   z-index: 0;
   width: 1440px;
   position: absolute;
-  height: 630px;
+  height: 800px;
   opacity: 40%;
 }
 
+
+
+
 h3 {
   padding: $paddingBase;
-  font-size: 150px;
-  line-height: 115px;
+  font-size: 250px;
+  line-height: 190px;
   letter-spacing: -10px;
   z-index: 1;
   position: relative;
-  top: 340px;
+  top: 350px;
   color: rgb(255, 255, 255);
+  font-family: 'Bebas Neue', cursive;
 }
 
 .dot {
   color: rgb(230, 102, 102);
 }
+
+/* test */

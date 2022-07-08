@@ -43,6 +43,13 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("navbar2");
   }
 
-
-
 });
+
+const me = document.querySelector('.me');
+
+me.addEventListener("mouseenter", function(){
+  me.classList.remove("hide-me");
+})
+me.addEventListener("mouseout", function(){
+  me.classList.add("hide-me");
+})
