@@ -45,11 +45,7 @@ window.addEventListener("scroll", () => {
 
 });
 
-const me = document.querySelector('.me');
+// FOR DARK MODE USE .TOGGLE
 
-me.addEventListener("mouseenter", function(){
-  me.classList.remove("hide-me");
-})
-me.addEventListener("mouseout", function(){
-  me.classList.add("hide-me");
-})
+ 
+//PORTFOLIO

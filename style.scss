@@ -4,7 +4,7 @@ $paddingBase: 0px 100px 0px 100px;
 $helvetica : "HelveticaNeue-Light"; 
 
 
-/*--------Mixins------------------------------*/
+/*--------Cursor------------------------------*/
 
 /*--------Start------------------------------*/
 
@@ -123,7 +123,7 @@ h1 {
   width: fit-content;
 }
 .shapes:hover {
-  transform: scale(1.35);
+  transform: scale(1.5);
   transition: 70ms;
   z-index: 100;
 }
@@ -151,21 +151,10 @@ h1 {
 
 /*-------ABOUT LINK------------------------------*/
 
-.about-link {
-  font-size: 150px;
-margin-bottom: 0;
-  font-family: 'Bebas Neue', cursive;
-}
-
-.whoami {
-  margin: 0;
-  align-items: center;
-  margin-bottom: 300px;
-}
 .aboutme{
   text-align: center;
-  height: 400px;
-  margin-top: 150px;
+  align-items: center;
+padding:$paddingBase ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,15 +163,40 @@ margin-bottom: 0;
 .me {
   width: 150px;
   height: auto;
-  position: relative;
-  top: 200px;
-  right: 125px;
+//   right: 125px;
   border-radius: 25px;
-  border: 100px;
+//   border: 100px;
 }
 
-.hide-me {
-  opacity:0%;
+.hiddentxt {
+  padding-top: 250px;
+    font-size: 150px;
+margin-bottom: 0;
+  font-family: 'Bebas Neue', cursive;
+  width: fit-content;
+  z-index: 100;
+  transition: 1s;
+}
+
+.hiddenimg {
+opacity: 0%;
+transform: 1s;
+position: relative;
+bottom: 325px;
+right: 150px;
+z-index: 0;
+transition: 1s;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+opacity: 100%;
+transition: 0.5s;
+  padding-bottom: -125px;
+}
+
+.hiddentxt:hover {
+  font-size: 175px;
+  transition: 0.75s;
 }
 
 
@@ -208,11 +222,13 @@ h2 {
   height: 516px;
   width: 940px;
   object-fit: cover;
+  transition: 0.5s;
 }
 
 .project-caption {
   display: flex;
   justify-content: space-between;
+  flex: 1;
   padding: 15px 150px 100px;
 }
 
@@ -226,8 +242,6 @@ h2 {
   height: 800px;
   opacity: 40%;
 }
-
-
 
 
 h3 {
@@ -246,4 +260,23 @@ h3 {
   color: rgb(230, 102, 102);
 }
 
-/* test */
+/*---------CURSOR------------------------------*/
+
+.custom {
+  cursor: url("./images/mouse.png"), pointer;
+}
+
+.custom1 {
+  cursor: url("./images/mouse1.png"), pointer;
+}
+
+.custom2 {
+  cursor: url("./images/mouse2.png"), pointer;
+}
+
+.custom3 {
+  cursor: url("./images/mouse3.png"), pointer;
+}
+
+.project-image:hover {
+}
