@@ -21,6 +21,22 @@ html, body {
   font-family: $helvetica;
 }
 
+a:link { 
+  text-decoration: none; 
+  color: black;
+}
+
+a:visited { text-decoration: none;
+  color: black;
+ }
+
+a:hover { text-decoration: none;
+  color: black;
+ }
+
+a:active { text-decoration: none;
+  color:rgb(230, 102, 102);
+ }
 
 /*--------NavBar1------------------------------*/
 
@@ -49,10 +65,11 @@ padding-left: 100px;
   justify-content: space-evenly;
   gap: 50px;
   padding-right: 100px;
+  height: 18px;
 }
 
 
-/*--------NavBar1------------------------------*/
+/*--------NavBar2------------------------------*/
 
 .navbar2 {
   height: 75px;
@@ -62,7 +79,6 @@ padding-left: 100px;
   position: absolute !important;
   top: -999px !important;
   left: -999px !important;
-
 }
 
 
@@ -90,11 +106,10 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   height: 190px;
+  position: relative;
+  right:10px;
 }
 
-.intro {
-  padding-left: 20px;
-}
 
 .home-right {
   display: flex;
@@ -163,18 +178,16 @@ padding:$paddingBase ;
 .me {
   width: 150px;
   height: auto;
-//   right: 125px;
   border-radius: 25px;
-//   border: 100px;
 }
 
 .hiddentxt {
-  padding-top: 250px;
+  margin-top: 250px;
     font-size: 150px;
 margin-bottom: 0;
   font-family: 'Bebas Neue', cursive;
   width: fit-content;
-  z-index: 100;
+  z-index: 50;
   transition: 1s;
 }
 
@@ -184,7 +197,6 @@ transform: 1s;
 position: relative;
 bottom: 325px;
 right: 150px;
-z-index: 0;
 transition: 1s;
 }
 
@@ -258,25 +270,28 @@ h3 {
 
 .dot {
   color: rgb(230, 102, 102);
+  font-family: 'Poppins', sans-serif;
 }
 
 /*---------CURSOR------------------------------*/
 
 .custom {
-  cursor: url("./images/mouse.png"), pointer;
+  cursor: url("./images/mouse.png") 30 30 , auto;
 }
 
 .custom1 {
-  cursor: url("./images/mouse1.png"), pointer;
+  cursor: url("./images/mouse1.png") 30 30, auto;
 }
 
 .custom2 {
-  cursor: url("./images/mouse2.png"), pointer;
+  cursor: url("./images/mouse2.png") 30 30, auto;
 }
 
 .custom3 {
-  cursor: url("./images/mouse3.png"), pointer;
+  cursor: url("./images/mouse3.png") 30 30, auto;
 }
 
 .project-image:hover {
 }
+
+// MAKE CURSOR CIRCLE WITH DOT IN, AND A BIT OPAQUE 

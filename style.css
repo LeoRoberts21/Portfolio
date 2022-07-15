@@ -13,6 +13,26 @@ html, body {
   font-family: "HelveticaNeue-Light";
 }
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: #e66666;
+}
+
 /*--------NavBar1------------------------------*/
 .nav-bar {
   display: -webkit-box;
@@ -49,9 +69,10 @@ html, body {
           justify-content: space-evenly;
   gap: 50px;
   padding-right: 100px;
+  height: 18px;
 }
 
-/*--------NavBar1------------------------------*/
+/*--------NavBar2------------------------------*/
 .navbar2 {
   height: 75px;
 }
@@ -94,10 +115,8 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   height: 190px;
-}
-
-.intro {
-  padding-left: 20px;
+  position: relative;
+  right: 10px;
 }
 
 .home-right {
@@ -216,14 +235,14 @@ h1 {
 }
 
 .hiddentxt {
-  padding-top: 250px;
+  margin-top: 250px;
   font-size: 150px;
   margin-bottom: 0;
   font-family: 'Bebas Neue', cursive;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  z-index: 100;
+  z-index: 50;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -235,7 +254,6 @@ h1 {
   position: relative;
   bottom: 325px;
   right: 150px;
-  z-index: 0;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -314,22 +332,23 @@ h3 {
 
 .dot {
   color: #e66666;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*---------CURSOR------------------------------*/
 .custom {
-  cursor: url("./images/mouse.png"), pointer;
+  cursor: url("./images/mouse.png") 30 30, auto;
 }
 
 .custom1 {
-  cursor: url("./images/mouse1.png"), pointer;
+  cursor: url("./images/mouse1.png") 30 30, auto;
 }
 
 .custom2 {
-  cursor: url("./images/mouse2.png"), pointer;
+  cursor: url("./images/mouse2.png") 30 30, auto;
 }
 
 .custom3 {
-  cursor: url("./images/mouse3.png"), pointer;
+  cursor: url("./images/mouse3.png") 30 30, auto;
 }
 /*# sourceMappingURL=style.css.map */
