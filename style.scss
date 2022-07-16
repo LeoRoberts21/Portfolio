@@ -69,6 +69,18 @@ padding-left: 100px;
 }
 
 
+.nav-dot {
+  cursor: url("./images/minimouse.png") 0 20 , auto;
+}
+
+.nav-dot1 {
+  cursor: url("./images/minimouse1.png") 20 20, auto;
+}
+
+.nav-dot2 {
+  cursor: url("./images/minimouse2.png") 20 20, auto;
+}
+
 /*--------NavBar2------------------------------*/
 
 .navbar2 {
@@ -102,7 +114,7 @@ padding-left: 100px;
 
 h1 {
   font-size: 10em;
-  margin: 0;
+  margin: 0px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   height: 190px;
@@ -247,12 +259,22 @@ h2 {
 /*---------CONTACT------------------------------*/
 
 
+.white-gradient {
+  width: 1440px;
+  height: 250px;
+  background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.523),  rgba(255, 255, 255, 0));
+  position: relative;
+  top: 250px;
+  margin-top: -100px;
+}
+
 .gradient {
-  z-index: 0;
+  z-index: -1;
   width: 1440px;
   position: absolute;
-  height: 800px;
-  opacity: 40%;
+  height: 900px;
+  opacity: 80%;
+  margin: 0%;
 }
 
 
@@ -261,16 +283,39 @@ h3 {
   font-size: 250px;
   line-height: 190px;
   letter-spacing: -10px;
-  z-index: 1;
+  z-index: 2;
   position: relative;
-  top: 350px;
+  padding-top: 300px;
   color: rgb(255, 255, 255);
   font-family: 'Bebas Neue', cursive;
+  margin: 0px;
 }
 
 .dot {
-  color: rgb(230, 102, 102);
+  color: rgb(255, 255, 255);
   font-family: 'Poppins', sans-serif;
+}
+
+.hr {
+  margin-top: 25px;
+width: 1240px;
+border: 2px solid rgb(255, 255, 255);
+z-index: 90;
+}
+
+.contacts {
+  display: flex;
+  padding-left: 100px;
+  color: white;
+  gap: 15px;
+}
+
+#linkedin:visited {
+    text-decoration: none;
+    color: white;
+    :active {
+      color:rgb(230, 102, 102);
+    }
 }
 
 /*---------CURSOR------------------------------*/
@@ -291,7 +336,5 @@ h3 {
   cursor: url("./images/mouse3.png") 30 30, auto;
 }
 
-.project-image:hover {
-}
 
 // MAKE CURSOR CIRCLE WITH DOT IN, AND A BIT OPAQUE 
