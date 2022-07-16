@@ -132,6 +132,7 @@ h1 {
   width: 390px;
   height: 94%;
   justify-content: space-between;
+  line-height: 20px;
 }
 
 /*-------PATTERN------------------------------*/
@@ -265,7 +266,7 @@ h2 {
   background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.523),  rgba(255, 255, 255, 0));
   position: relative;
   top: 250px;
-  margin-top: -100px;
+  margin-top: -150px;
 }
 
 .gradient {
@@ -306,16 +307,23 @@ z-index: 90;
 .contacts {
   display: flex;
   padding-left: 100px;
+  padding-right: 100px;
   color: white;
   gap: 15px;
+  justify-content: space-between;
 }
 
 #linkedin:visited {
     text-decoration: none;
     color: white;
-    :active {
-      color:rgb(230, 102, 102);
-    }
+}
+
+#linkedin:active {
+  color:rgb(0, 0, 0);
+}
+
+.dontWorry {
+  font-size: 14px;
 }
 
 /*---------CURSOR------------------------------*/
