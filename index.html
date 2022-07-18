@@ -10,23 +10,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leo Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
 </head>
-<body>
+<body id="switchDiv">
 
 <container class = "container">
  <!-------NAV-BAR------->
  <section class="nav-bar"> 
     <p id="nav-left"><a href="#whole-home" class="nav-dot" ><span class="leo">Leo Roberts</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer & Developer</p>
+    <button class="hamburger"></button>
     <ul id="nav-right">
-            <a href="..." > <il class="nav-dot">Projects</il> </a>
+            <a href="#project-tag" > <il class="nav-dot">Projects</il> </a>
             <a href="..." ><il class="nav-dot1">About</il></a>
             <a href="..." ><il class="nav-dot2">Contact</il></a>
-            <il><button>Light/Dark</button></il>
+            <il><button class="switchButton">Light/Dark</button></il>
     </ul>
  </section>
 
  <!-------HOME-(left)------->
-
 <section id="whole-home">
 
  <div class="home-left">
@@ -35,9 +36,8 @@
         <p class="intro">I'm Leo, a graphic design graduate turned front-end developer.</p>
     </div>
 
- <!-------HOME-(BOTTOM-HALF)------->
-
   <!---------------Pattern------------------>
+
   <section class="whole-pattern">
     <!--ROW-1---------------------------------------------------------->
   <div class="row1">
@@ -278,14 +278,16 @@
     </section>
  </div>
  <!-------HOME-(right)------->
+ <img  id="staticPattern" src="./images/smallpattern.png" alt="">
+
  <div class="home-right">
     <div>
-        <p><br>I love the process of researching, designing and bringing websites to life through code. My background in graphic design has given me lots of skills that carry over to web development and design.
+        <p class="description"><br>I love the process of researching, designing and bringing websites to life through code. My background in graphic design has given me lots of skills that carry over to web development and design.
         </p>
     </div>
 
     <p class="tuesday">Enjoy your <b><span class="current-day">dayOfWeek</span></b><br><br>Scroll for more ↓</p>
-   </div>
+ </div>
 
 </section><!--END OF WHOLE HOME-->
 
@@ -299,12 +301,12 @@
     <span class="hiddenimg">
         <img class="me hide-me" src="images/me.png" alt="Picture of me">
     </span>
-  </p>
+ </p>
 
 
  <!-------PROJECT-SECTION------->
  
- <h2>My projects </h2>
+ <h2 id="project-tag">My projects </h2>
 
     <section class="selected-projects">
         <div> <!--PROJECT-1-->
@@ -345,7 +347,7 @@
 
  <section>
     <div class="white-gradient"></div>
-<img class='gradient' src="./images/color.gif" alt="gradient gif">
+    <img class='gradient' src="./images/color.gif" alt="gradient gif">
     <h3>LET'S<br>CONNECT<span class="dot">.</span></h3>
     <hr class="hr">
     <div class="contacts">

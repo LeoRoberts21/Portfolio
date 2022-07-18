@@ -1,0 +1,70 @@
+/*------------------------------------MEDIA-QUERIES------------------*/
+@media (max-width: 600px) {
+  .intro {
+    padding-right: 25px;
+  }
+  /*--------NavBar1------------------------------*/
+  .nav-bar {
+    font-size: 14px;
+    height: 70px;
+  }
+  .nav-bar .hamburger {
+    display: block;
+    margin-right: 25px;
+  }
+  .nav-bar #nav-left {
+    padding-left: 25px;
+  }
+  .nav-bar #nav-right {
+    display: none;
+    padding-right: 0px;
+  }
+  /*--------Home------------------------------*/
+  #staticPattern {
+    display: block;
+    height: 86%;
+    width: 86%;
+    padding: 0px 25px;
+  }
+  #whole-home {
+    padding-top: 90px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .intro {
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
+  .home-left {
+    padding-left: 25px;
+    padding-top: 30px;
+    width: 86%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .home-left h1 {
+    font-size: 6em;
+    height: 75px;
+    padding-left: 4px;
+    bottom: 30px;
+  }
+  .description {
+    margin: 0px;
+    height: 140px;
+    padding-top: 10px;
+  }
+  /*-------PATTERN------------------------------*/
+  .whole-pattern {
+    display: none;
+  }
+  .home-right {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0px 25px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

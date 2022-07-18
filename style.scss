@@ -1,13 +1,15 @@
+
+
+@import url(responsive.scss);;
+
 /*--------Variables------------------------------*/
 
 $paddingBase: 0px 100px 0px 100px;
-$helvetica : "HelveticaNeue-Light"; 
-
+$helvetica: "HelveticaNeue-Light";
 
 /*--------Cursor------------------------------*/
 
 /*--------Start------------------------------*/
-
 
 .container {
   width: 100%;
@@ -15,28 +17,33 @@ $helvetica : "HelveticaNeue-Light";
   margin: 0 auto;
 }
 
-html, body {
+html,
+body {
   margin: 0px;
   padding: 0px;
   font-family: $helvetica;
+  cursor: url("./images/maincursor.png") 0 20, auto;
 }
 
-a:link { 
-  text-decoration: none; 
+a:link {
+  text-decoration: none;
   color: black;
 }
 
-a:visited { text-decoration: none;
+a:visited {
+  text-decoration: none;
   color: black;
- }
+}
 
-a:hover { text-decoration: none;
+a:hover {
+  text-decoration: none;
   color: black;
- }
+}
 
-a:active { text-decoration: none;
-  color:rgb(230, 102, 102);
- }
+a:active {
+  text-decoration: none;
+  color: rgb(230, 102, 102);
+}
 
 /*--------NavBar1------------------------------*/
 
@@ -47,38 +54,41 @@ a:active { text-decoration: none;
   background-color: rgb(255, 255, 255);
   z-index: 100;
   transition: transform 3s;
-  width: 100%;
+  min-width: 100%;
   padding-right: 100px;
   height: 150px;
   align-items: center;
-}
 
+  .hamburger {
+    background-color: black;
+    border-style: none;
+    width: 20px;
+    display: none;
+  }
 
-#nav-left{
-padding-left: 100px;
+  #nav-left {
+    padding-left: 100px;
+  }
 
-}
+  #nav-right {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-right: 100px;
+    max-height: 18px;
 
+    .nav-dot {
+      cursor: url("./images/minimouse.png") 0 20, auto;
+    }
 
-#nav-right {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 50px;
-  padding-right: 100px;
-  height: 18px;
-}
+    .nav-dot1 {
+      cursor: url("./images/minimouse1.png") 20 20, auto;
+    }
 
-
-.nav-dot {
-  cursor: url("./images/minimouse.png") 0 20 , auto;
-}
-
-.nav-dot1 {
-  cursor: url("./images/minimouse1.png") 20 20, auto;
-}
-
-.nav-dot2 {
-  cursor: url("./images/minimouse2.png") 20 20, auto;
+    .nav-dot2 {
+      cursor: url("./images/minimouse2.png") 20 20, auto;
+    }
+  }
 }
 
 /*--------NavBar2------------------------------*/
@@ -93,14 +103,18 @@ padding-left: 100px;
   left: -999px !important;
 }
 
-
 /*--------Home------------------------------*/
 
 #whole-home {
   display: flex;
-  height: 630px;
+  max-height: 630px;
   padding-top: 100px;
 }
+
+#staticPattern {
+  display: none;
+}
+
 
 .home-left {
   padding-left: 100px;
@@ -110,18 +124,49 @@ padding-left: 100px;
   max-height: 800px;
   width: 70%;
   justify-content: space-between;
-}
 
-h1 {
-  font-size: 10em;
-  margin: 0px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  height: 190px;
-  position: relative;
-  right:10px;
-}
+  h1 {
+    font-size: 10em;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    height: 190px;
+    position: relative;
+    right: 10px;
+  }
 
+  /*-------PATTERN------------------------------*/
+
+
+  .whole-pattern {
+    transform: scale(0.42);
+    max-width: fit-content;
+    position: relative;
+    top: -200px;
+    translate: -29%;
+  }
+
+  .row1, .row2, .row3 {
+    display: flex;
+    flex-direction: row;
+    min-width: fit-content;
+  }
+  .shapes:hover {
+    transform: scale(1.5);
+    transition: 70ms;
+    z-index: 100;
+  }
+
+  .two-rows {
+    min-width: 270px;
+  }
+
+  .two-cols {
+    min-width: 268px;
+    display: flex;
+  }
+
+}
 
 .home-right {
   display: flex;
@@ -129,109 +174,70 @@ h1 {
   flex-direction: column;
   padding-top: 50px;
   padding-right: 100px;
-  width: 390px;
-  height: 94%;
+  max-width: 390px;
+  max-height: 630px;
   justify-content: space-between;
   line-height: 20px;
-}
 
-/*-------PATTERN------------------------------*/
-
-.whole-pattern {
-  transform: scale(0.42);
-  width: fit-content;
-  position: relative;
-  top: -200px;
-  translate: -29%;
-}
-
-.row1 {
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
-}
-.shapes:hover {
-  transform: scale(1.5);
-  transition: 70ms;
-  z-index: 100;
-}
-
-.two-rows {
-  width: 270px;
-}
-
-.row2 {
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
-}
-
-.two-cols {
-  width: 268px;
-  display: flex;
-}
-
-.row3 {
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
+  .tuesday {
+    position: relative;
+    top: 13.5px;
+  }
 }
 
 /*-------ABOUT LINK------------------------------*/
 
-.aboutme{
+.aboutme {
   text-align: center;
   align-items: center;
-padding:$paddingBase ;
+  padding: $paddingBase;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
 
-.me {
-  width: 150px;
-  height: auto;
-  border-radius: 25px;
-}
-
-.hiddentxt {
-  margin-top: 250px;
+  .hiddentxt {
+    margin-top: 250px;
     font-size: 150px;
-margin-bottom: 0;
-  font-family: 'Bebas Neue', cursive;
-  width: fit-content;
-  z-index: 50;
-  transition: 1s;
+    margin-bottom: 0;
+    font-family: "Bebas Neue", cursive;
+    max-width: fit-content;
+    z-index: 50;
+    transition: 1s;
+  }
+
+  .hiddenimg {
+    opacity: 0%;
+    transform: 1s;
+    position: relative;
+    bottom: 325px;
+    right: 150px;
+    transition: 1s;
+
+    .me {
+      max-width: 150px;
+      max-height: auto;
+      border-radius: 25px;
+    }
+  }
+
+  .hiddentxt:hover ~ .hiddenimg {
+    opacity: 100%;
+    transition: 0.5s;
+    padding-bottom: -125px;
+  }
+
+  .hiddentxt:hover {
+    font-size: 175px;
+    transition: 0.75s;
+  }
 }
-
-.hiddenimg {
-opacity: 0%;
-transform: 1s;
-position: relative;
-bottom: 325px;
-right: 150px;
-transition: 1s;
-}
-
-.hiddentxt:hover ~ .hiddenimg {
-opacity: 100%;
-transition: 0.5s;
-  padding-bottom: -125px;
-}
-
-.hiddentxt:hover {
-  font-size: 175px;
-  transition: 0.75s;
-}
-
-
 
 /*-------PROJECTS------------------------------*/
 
 h2 {
   padding: $paddingBase;
   font-size: 5em;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 0%;
 }
 
@@ -240,30 +246,33 @@ h2 {
   padding-top: 50px;
   text-align: center;
   padding-top: 100px;
-}
 
-.project-image {
-  background-color: black;
-  height: 516px;
-  width: 940px;
-  object-fit: cover;
-  transition: 0.5s;
-}
+  .project-image {
+    background-color: black;
+    height: 516px;
+    width: 940px;
+    object-fit: cover;
+    transition: 0.5s;
+  }
 
-.project-caption {
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-  padding: 15px 150px 100px;
+  .project-caption {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 15px 150px 100px;
+  }
 }
 
 /*---------CONTACT------------------------------*/
 
-
 .white-gradient {
-  width: 1440px;
-  height: 250px;
-  background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.523),  rgba(255, 255, 255, 0));
+  max-width: 1440px;
+  min-height: 250px;
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.523),
+    rgba(255, 255, 255, 0)
+  );
   position: relative;
   top: 250px;
   margin-top: -150px;
@@ -271,13 +280,12 @@ h2 {
 
 .gradient {
   z-index: -1;
-  width: 1440px;
+  max-width: 1440px;
   position: absolute;
-  height: 900px;
+  min-height: 900px;
   opacity: 80%;
   margin: 0%;
 }
-
 
 h3 {
   padding: $paddingBase;
@@ -288,20 +296,20 @@ h3 {
   position: relative;
   padding-top: 300px;
   color: rgb(255, 255, 255);
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   margin: 0px;
 }
 
 .dot {
   color: rgb(255, 255, 255);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .hr {
   margin-top: 25px;
-width: 1240px;
-border: 2px solid rgb(255, 255, 255);
-z-index: 90;
+  max-width: 1240px;
+  border: 2px solid rgb(255, 255, 255);
+  z-index: 90;
 }
 
 .contacts {
@@ -311,25 +319,25 @@ z-index: 90;
   color: white;
   gap: 15px;
   justify-content: space-between;
-}
 
-#linkedin:visited {
+  #linkedin:visited {
     text-decoration: none;
     color: white;
+  }
+
+  #linkedin:active {
+    color: rgb(0, 0, 0);
+  }
+
+  .dontWorry {
+    font-size: 14px;
+  }
 }
 
-#linkedin:active {
-  color:rgb(0, 0, 0);
-}
-
-.dontWorry {
-  font-size: 14px;
-}
-
-/*---------CURSOR------------------------------*/
+/*---------PROJECT-CURSORS------------------------------*/
 
 .custom {
-  cursor: url("./images/mouse.png") 30 30 , auto;
+  cursor: url("./images/mouse.png") 30 30, auto;
 }
 
 .custom1 {
@@ -344,5 +352,8 @@ z-index: 90;
   cursor: url("./images/mouse3.png") 30 30, auto;
 }
 
+// DARKMODE..
 
-// MAKE CURSOR CIRCLE WITH DOT IN, AND A BIT OPAQUE 
+#switchDiv {
+  background-color: white;
+}

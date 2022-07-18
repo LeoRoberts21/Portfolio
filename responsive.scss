@@ -1,0 +1,134 @@
+
+/*------------------------------------MEDIA-QUERIES------------------*/
+
+@media (max-width: 600px) {
+  
+
+  .intro {
+    padding-right: 25px;
+  }
+
+  /*--------NavBar1------------------------------*/
+
+
+
+  .nav-bar {
+    font-size: 14px;
+    height: 70px;
+
+    .hamburger {
+      display: block;
+      margin-right: 25px;
+    }
+
+    #nav-left {
+      padding-left: 25px;
+    }
+
+    #nav-right {
+      display: none;
+      padding-right: 0px;
+    }
+  }
+
+  /*--------Home------------------------------*/
+
+  #staticPattern {
+    display: block;
+    height: 86%;
+    width: 86%;
+    padding: 0px 25px;
+  }
+
+
+  #whole-home {
+    padding-top: 90px;
+    flex-direction: column;
+  }
+
+  .intro {
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .home-left {
+    padding-left: 25px;
+    padding-top: 30px;
+    width: 86%;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 6em;
+      height: 75px;
+      padding-left: 4px;
+      bottom: 30px;
+    }
+  }
+
+  .description {
+    margin: 0px;
+    height: 140px;
+    padding-top: 10px;
+  }
+  /*-------PATTERN------------------------------*/
+
+  .whole-pattern {
+    display: none;
+  }
+
+  .home-right {
+    justify-content: space-between;
+    padding: 0px 25px;
+  }
+
+/*-------ABOUT LINK------------------------------*/
+
+.aboutme {
+  text-align: center;
+  align-items: center;
+  padding: $paddingBase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .hiddentxt {
+    margin-top: 250px;
+    font-size: 150px;
+    margin-bottom: 0;
+    font-family: "Bebas Neue", cursive;
+    max-width: fit-content;
+    z-index: 50;
+    transition: 1s;
+  }
+
+  .hiddenimg {
+    opacity: 0%;
+    transform: 0s;
+    position: relative;
+    bottom: 325px;
+    right: 150px;
+    transition: 1s;
+
+    .me {
+      max-width: 150px;
+      max-height: auto;
+      border-radius: 25px;
+    }
+  }
+
+  .hiddentxt:hover ~ .hiddenimg {
+    opacity: 100%;
+    transition: 0.5s;
+    padding-bottom: -125px;
+  }
+
+  .hiddentxt:hover {
+    font-size: 175px;
+    transition: 0.75s;
+  }
+}
+
+
+
+
+}
