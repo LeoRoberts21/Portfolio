@@ -13,7 +13,6 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "HelveticaNeue-Light";
-  cursor: url("./images/maincursor.png") 0 20, auto;
 }
 
 a:link {
@@ -60,9 +59,11 @@ a:active {
 }
 
 .nav-bar .hamburger {
-  background-color: black;
-  border-style: none;
-  width: 20px;
+  font-size: 30px;
+  height: 17px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  bottom: 20px;
   display: none;
 }
 
@@ -144,6 +145,8 @@ a:active {
   height: 190px;
   position: relative;
   right: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .home-left .whole-pattern {
@@ -236,7 +239,7 @@ a:active {
 
 .aboutme .hiddentxt {
   margin-top: 250px;
-  font-size: 150px;
+  font-size: 950%;
   margin-bottom: 0;
   font-family: "Bebas Neue", cursive;
   max-width: -webkit-fit-content;
@@ -295,7 +298,7 @@ h2 {
 .selected-projects .project-image {
   background-color: black;
   height: 516px;
-  width: 940px;
+  width: 76%;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-transition: 0.5s;
@@ -303,22 +306,21 @@ h2 {
 }
 
 .selected-projects .project-caption {
+  padding-left: 150px;
+  padding-right: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  padding: 15px 150px 100px;
+  padding-bottom: 50px;
 }
 
 /*---------CONTACT------------------------------*/
 .white-gradient {
   max-width: 1440px;
-  min-height: 250px;
+  height: 250px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(rgba(255, 255, 255, 0.523)), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(white, rgba(255, 255, 255, 0.523), rgba(255, 255, 255, 0));
   position: relative;
@@ -328,9 +330,9 @@ h2 {
 
 .gradient {
   z-index: -1;
-  max-width: 1440px;
+  width: 1440px;
   position: absolute;
-  min-height: 900px;
+  height: 900px;
   opacity: 80%;
   margin: 0%;
 }
