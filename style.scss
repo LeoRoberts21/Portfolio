@@ -1,6 +1,4 @@
-
-
-@import url(responsive.scss);;
+@import url(responsive.scss);
 
 /*--------Variables------------------------------*/
 
@@ -59,14 +57,14 @@ a:active {
   height: 150px;
   align-items: center;
 
-.hamburger {
-  font-size: 30px;
-  height: 17px;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  bottom: 20px;
-  display: none;
-}
+  .hamburger {
+    font-size: 30px;
+    height: 17px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    bottom: 20px;
+    display: none;
+  }
 
   #nav-left {
     padding-left: 100px;
@@ -109,7 +107,7 @@ a:active {
 
 #whole-home {
   display: flex;
-  max-height: 630px;
+  height: fit-content;
   padding-top: 100px;
 }
 
@@ -117,6 +115,9 @@ a:active {
   display: none;
 }
 
+#staticPattern2 {
+  display: none;
+}
 
 .home-left {
   padding-left: 100px;
@@ -140,7 +141,6 @@ a:active {
 
   /*-------PATTERN------------------------------*/
 
-
   .whole-pattern {
     transform: scale(0.42);
     max-width: fit-content;
@@ -149,7 +149,9 @@ a:active {
     translate: -29%;
   }
 
-  .row1, .row2, .row3 {
+  .row1,
+  .row2,
+  .row3 {
     display: flex;
     flex-direction: row;
     min-width: fit-content;
@@ -168,7 +170,6 @@ a:active {
     min-width: 268px;
     display: flex;
   }
-
 }
 
 .home-right {
@@ -177,8 +178,8 @@ a:active {
   flex-direction: column;
   padding-top: 50px;
   padding-right: 100px;
-  max-width: 390px;
-  max-height: 630px;
+  width: 390px;
+  max-height: 580px;
   justify-content: space-between;
   line-height: 20px;
 
@@ -253,17 +254,17 @@ h2 {
   .project-image {
     background-color: black;
     height: 516px;
-    width: 76%;
+    width: 60em;
     object-fit: cover;
     transition: 0.5s;
   }
 
   .project-caption {
-padding-left: 150px;
-padding-right: 150px;
-display: flex;
-justify-content: space-between;
-padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
   }
 }
 
@@ -324,13 +325,17 @@ h3 {
   gap: 15px;
   justify-content: space-between;
 
+  #linkedin {
+    color: white;
+  }
+
   #linkedin:visited {
     text-decoration: none;
     color: white;
   }
 
   #linkedin:active {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
   .dontWorry {

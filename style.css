@@ -111,11 +111,17 @@ a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-height: 630px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding-top: 100px;
 }
 
 #staticPattern {
+  display: none;
+}
+
+#staticPattern2 {
   display: none;
 }
 
@@ -160,7 +166,9 @@ a:active {
   translate: -29%;
 }
 
-.home-left .row1, .home-left .row2, .home-left .row3 {
+.home-left .row1,
+.home-left .row2,
+.home-left .row3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,8 +213,8 @@ a:active {
           flex-direction: column;
   padding-top: 50px;
   padding-right: 100px;
-  max-width: 390px;
-  max-height: 630px;
+  width: 390px;
+  max-height: 580px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -298,7 +306,7 @@ h2 {
 .selected-projects .project-image {
   background-color: black;
   height: 516px;
-  width: 76%;
+  width: 60em;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-transition: 0.5s;
@@ -375,13 +383,17 @@ h3 {
           justify-content: space-between;
 }
 
+.contacts #linkedin {
+  color: white;
+}
+
 .contacts #linkedin:visited {
   text-decoration: none;
   color: white;
 }
 
 .contacts #linkedin:active {
-  color: black;
+  color: white;
 }
 
 .contacts .dontWorry {
