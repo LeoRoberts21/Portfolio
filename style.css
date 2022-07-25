@@ -158,9 +158,9 @@ a:active {
 .home-left .whole-pattern {
   -webkit-transform: scale(0.42);
           transform: scale(0.42);
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   position: relative;
   top: -200px;
   translate: -29%;
@@ -190,11 +190,11 @@ a:active {
 }
 
 .home-left .two-rows {
-  min-width: 270px;
+  width: 270px;
 }
 
 .home-left .two-cols {
-  min-width: 268px;
+  width: 268px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -232,6 +232,8 @@ a:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   padding: 0px 100px 0px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,9 +248,9 @@ a:active {
 }
 
 .aboutme .hiddentxt {
-  margin-top: 250px;
   font-size: 950%;
   margin-bottom: 0;
+  margin-top: 75px;
   font-family: "Bebas Neue", cursive;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -297,16 +299,26 @@ h2 {
 }
 
 .selected-projects {
-  padding: 0px 100px 0px 100px;
   padding-top: 50px;
   text-align: center;
   padding-top: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .selected-projects .project-image {
   background-color: black;
   height: 516px;
-  width: 60em;
+  width: 70%;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-transition: 0.5s;
@@ -314,15 +326,24 @@ h2 {
 }
 
 .selected-projects .project-caption {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.selected-projects .space-out {
+  width: 70%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /*---------CONTACT------------------------------*/

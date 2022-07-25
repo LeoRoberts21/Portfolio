@@ -1,6 +1,82 @@
 /*------------------------------------MEDIA-QUERIES------------------*/
-@media (max-width: 992px) and (min-width:688px) {/*------------------------------------IPADS------------------*/
 
+
+
+@media (max-width: 1312px) and (min-width: 993px) {
+  .nav-bar {
+    #nav-left {
+      padding-left: 75px;
+    }
+
+    #nav-right {
+      padding-right: 75px;
+    }
+  }
+
+  .home-left {
+    padding-left: 75px;
+    width: 650px;
+
+    /*-------PATTERN------------------------------*/
+
+    .whole-pattern {
+      transform: scale(0.27);
+      width: fit-content;
+      position: relative;
+      top: -250px;
+      translate: -37%;
+    }
+
+    .shapes:hover {
+      transform: scale(1);
+    }
+  }
+
+  .home-right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-right: 75px;
+    width: 500px;
+    max-height: 470px;
+    justify-content: space-between;
+    line-height: 20px;
+
+    .tuesday {
+      position: relative;
+      top: 13.5px;
+    }
+  }
+  /*-----------------ABOUT-----------------*/
+  .aboutme {
+    height: 450px;
+
+    .hiddentxt {
+      margin-top: 0px;
+      padding-top: 100px;
+    }
+
+    .hiddentxt:hover {
+      font-size: 950%;
+    }
+
+    .hiddenimg {
+      opacity: 100%;
+    }
+  }
+
+  h2 {
+    font-size: 5em;
+    margin-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  }
+
+@media (max-width: 992px) and (min-width: 688px) {
+  /*------------------------------------IPADS------------------*/
 
   /*--------NavBar1------------------------------*/
   .nav-bar {
@@ -61,45 +137,43 @@
     width: 65%;
   }
 
-    .whole-pattern {
-      display: none;
+  .whole-pattern {
+    display: none;
+  }
+
+  .tuesday {
+    width: 100%;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 1.25em;
+  }
+
+  .home-right {
+    width: 88%;
+    padding: 0px 50px;
+    flex-direction: row;
+  }
+
+  /*--------------------ABOUT---------------*/
+
+  .aboutme {
+    height: 650px;
+
+    .hiddentxt {
+      margin-top: 0px;
+      padding-top: 200px;
     }
-
-    .tuesday {
-      width: 100%;
-      margin-top: 30px;
-      text-align: right;
-      font-size: 1.25em;
-    }
-
-    .home-right {
-      width: 88%;
-      padding: 0px 50px;
-      flex-direction: row;
-    }
-
-
-/*--------------------ABOUT---------------*/
-
-
-    .aboutme {
-      height: 650px;
-
-      .hiddentxt {
-        margin-top: 0px;
-        padding-top: 200px;
-      }
 
     .hiddentxt:hover {
       font-size: 950%;
     }
 
-      .hiddenimg {
-        opacity: 100%;
-      }
+    .hiddenimg {
+      opacity: 100%;
     }
+  }
 
-      /*-------PROJECTS------------------------------*/
+  /*-------PROJECTS------------------------------*/
 
   h2 {
     font-size: 5em;
@@ -114,23 +188,9 @@
     text-align: center;
     padding-top: 20%;
 
-    .project-image {
-      width: 88%;
-      height: auto;
-      transition: 0.5s;
-    }
-
-    .project-caption {
-      font-size: 1.25em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-bottom: 15%;
-      padding-top: 0px;
-    }
   }
 
-      /*-------CONTACT------------------------------*/
-
+  /*-------CONTACT------------------------------*/
 
   .white-gradient {
     width: 100%;
@@ -185,15 +245,8 @@
   }
 }
 
-
-
-
-
-
-
-
-
-@media (max-width: 688px) {/*------------------------------------PHONE------------------*/
+@media (max-width: 688px) {
+  /*------------------------------------PHONE------------------*/
   .intro {
     padding-right: 25px;
   }
@@ -218,7 +271,6 @@
       padding-right: 0px;
     }
   }
-
 
   /*--------Home------------------------------*/
 
@@ -314,19 +366,6 @@
     text-align: center;
     padding-top: 20%;
 
-    .project-image {
-      width: 88%;
-      height: auto;
-      transition: 0.5s;
-    }
-
-    .project-caption {
-      font-size: 15px;
-      padding-left: 32px;
-      padding-right: 32px;
-      padding-bottom: 15%;
-      padding-top: 0px;
-    }
   }
 
   /*---------CONTACT------------------------------*/
