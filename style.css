@@ -299,9 +299,7 @@ h2 {
 }
 
 .selected-projects {
-  padding-top: 50px;
   text-align: center;
-  padding-top: 100px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -317,7 +315,7 @@ h2 {
 
 .selected-projects .project-image {
   background-color: black;
-  height: 516px;
+  height: 575px;
   width: 70%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -348,7 +346,7 @@ h2 {
 
 /*---------CONTACT------------------------------*/
 .white-gradient {
-  max-width: 1440px;
+  width: 1440px;
   height: 250px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(rgba(255, 255, 255, 0.523)), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(white, rgba(255, 255, 255, 0.523), rgba(255, 255, 255, 0));
@@ -386,7 +384,7 @@ h3 {
 
 .hr {
   margin-top: 25px;
-  max-width: 1240px;
+  padding-left: 75px;
   border: 2px solid white;
   z-index: 90;
 }

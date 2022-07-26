@@ -247,9 +247,7 @@ h2 {
 }
 
 .selected-projects {
-  padding-top: 50px;
   text-align: center;
-  padding-top: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -257,7 +255,7 @@ h2 {
 
   .project-image {
     background-color: black;
-    height: 516px;
+    height: 575px;
     width: 70%;
     object-fit: cover;
     transition: 0.5s;
@@ -280,7 +278,7 @@ h2 {
 /*---------CONTACT------------------------------*/
 
 .white-gradient {
-  max-width: 1440px;
+  width: 1440px;
   height: 250px;
   background-image: linear-gradient(
     rgb(255, 255, 255),
@@ -321,7 +319,7 @@ h3 {
 
 .hr {
   margin-top: 25px;
-  max-width: 1240px;
+  padding-left: 75px;
   border: 2px solid rgb(255, 255, 255);
   z-index: 90;
 }
