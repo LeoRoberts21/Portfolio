@@ -295,7 +295,19 @@ h2 {
   padding: 0px 100px 0px 100px;
   font-size: 5em;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 0%;
+  margin-bottom: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-catagories {
+  gap: 100px;
+  padding-top: 50px;
+  font-size: 35px;
 }
 
 .selected-projects {
