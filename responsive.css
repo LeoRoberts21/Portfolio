@@ -1,5 +1,5 @@
 /*------------------------------------MEDIA-QUERIES------------------*/
-@media (min-width: 1350px) {
+@media (min-width: 1350px) and (max-width: 1600px) {
   .white-gradient {
     width: 2000px;
     height: 80px;
@@ -50,7 +50,7 @@
   }
   .selected-projects .project-image {
     background-color: black;
-    height: 550px;
+    height: 675px;
     width: 75%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -115,7 +115,7 @@
   }
   .selected-projects .project-image {
     background-color: black;
-    height: 475px;
+    height: 575px;
     width: 75%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -242,7 +242,7 @@
   }
   .selected-projects .project-image {
     background-color: black;
-    height: 475px;
+    height: 575px;
     width: 85%;
     -o-object-fit: cover;
        object-fit: cover;
