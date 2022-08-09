@@ -32,32 +32,22 @@ a:hover {
 
 a:active {
   text-decoration: none;
-  color: #e66666;
+  color: rgb(230, 102, 102);
 }
 
 /*--------NavBar1------------------------------*/
 .nav-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   position: fixed;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 100;
-  -webkit-transition: -webkit-transform 3s;
-  transition: -webkit-transform 3s;
   transition: transform 3s;
-  transition: transform 3s, -webkit-transform 3s;
   min-width: 100%;
   padding-right: 100px;
   height: 150px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .nav-bar .hamburger {
   font-size: 30px;
   height: 17px;
@@ -66,31 +56,22 @@ a:active {
   bottom: 20px;
   display: none;
 }
-
 .nav-bar #nav-left {
   padding-left: 100px;
 }
-
 .nav-bar #nav-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   gap: 50px;
   padding-right: 100px;
   max-height: 18px;
 }
-
 .nav-bar #nav-right .nav-dot {
   cursor: url("./images/minimouse.png") 0 20, auto;
 }
-
 .nav-bar #nav-right .nav-dot1 {
   cursor: url("./images/minimouse1.png") 20 20, auto;
 }
-
 .nav-bar #nav-right .nav-dot2 {
   cursor: url("./images/minimouse2.png") 20 20, auto;
 }
@@ -108,8 +89,6 @@ a:active {
 
 /*--------Home------------------------------*/
 #whole-home {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -128,21 +107,13 @@ a:active {
 .home-left {
   padding-left: 100px;
   padding-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   max-height: 800px;
   width: 70%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   /*-------PATTERN------------------------------*/
 }
-
 .home-left h1 {
   font-size: 10em;
   margin: 0px;
@@ -151,13 +122,10 @@ a:active {
   height: 190px;
   position: relative;
   right: 10px;
-  -webkit-transition: 1s;
   transition: 1s;
 }
-
 .home-left .whole-pattern {
-  -webkit-transform: scale(0.42);
-          transform: scale(0.42);
+  transform: scale(0.42);
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -165,62 +133,39 @@ a:active {
   top: -200px;
   translate: -29%;
 }
-
 .home-left .row1,
 .home-left .row2,
 .home-left .row3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content;
 }
-
 .home-left .shapes:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-transition: 70ms;
+  transform: scale(1.5);
   transition: 70ms;
   z-index: 100;
 }
-
 .home-left .two-rows {
   width: 270px;
 }
-
 .home-left .two-cols {
   width: 268px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .home-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: flex-start;
+  flex-direction: column;
   padding-top: 50px;
   padding-right: 100px;
   width: 390px;
   max-height: 580px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   line-height: 20px;
 }
-
 .home-right .tuesday {
   position: relative;
   top: 13.5px;
@@ -229,24 +174,13 @@ a:active {
 /*-------ABOUT LINK------------------------------*/
 .aboutme {
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-item-align: center;
-      align-self: center;
+  align-items: center;
+  align-self: center;
   padding: 0px 100px 0px 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .aboutme .hiddentxt {
   font-size: 950%;
   margin-bottom: 0;
@@ -256,37 +190,28 @@ a:active {
   max-width: -moz-fit-content;
   max-width: fit-content;
   z-index: 50;
-  -webkit-transition: 1s;
   transition: 1s;
 }
-
 .aboutme .hiddenimg {
   opacity: 0%;
-  -webkit-transform: 1s;
-          transform: 1s;
+  transform: 1s;
   position: relative;
   bottom: 325px;
   right: 150px;
-  -webkit-transition: 1s;
   transition: 1s;
 }
-
 .aboutme .hiddenimg .me {
   max-width: 150px;
   max-height: auto;
   border-radius: 25px;
 }
-
 .aboutme .hiddentxt:hover ~ .hiddenimg {
   opacity: 100%;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   padding-bottom: -125px;
 }
-
 .aboutme .hiddentxt:hover {
   font-size: 175px;
-  -webkit-transition: 0.75s;
   transition: 0.75s;
 }
 
@@ -296,12 +221,8 @@ h2 {
   font-size: 5em;
   font-family: "Poppins", sans-serif;
   margin-bottom: 3%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .project-catagories {
@@ -313,46 +234,27 @@ h2 {
 .selected-projects {
   text-align: center;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .selected-projects .project-image {
   background-color: black;
   height: 575px;
   width: 70%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .selected-projects .project-caption {
   padding-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .selected-projects .space-out {
   width: 70%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: space-between;
   display: flex;
 }
 
@@ -360,8 +262,7 @@ h2 {
 .white-gradient {
   width: 1440px;
   height: 250px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(rgba(255, 255, 255, 0.523)), to(rgba(255, 255, 255, 0)));
-  background-image: linear-gradient(white, rgba(255, 255, 255, 0.523), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.523), rgba(255, 255, 255, 0));
   position: relative;
   top: 250px;
   margin-top: -150px;
@@ -384,49 +285,41 @@ h3 {
   z-index: 2;
   position: relative;
   padding-top: 300px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
   margin: 0px;
 }
 
 .dot {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
 }
 
 .hr {
   margin-top: 25px;
   padding-left: 75px;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   z-index: 90;
 }
 
 .contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-left: 100px;
   padding-right: 100px;
   color: white;
   gap: 15px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .contacts #linkedin {
   color: white;
 }
-
 .contacts #linkedin:visited {
   text-decoration: none;
   color: white;
 }
-
 .contacts #linkedin:active {
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 .contacts .dontWorry {
   font-size: 14px;
 }
@@ -450,5 +343,4 @@ h3 {
 
 #switchDiv {
   background-color: white;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

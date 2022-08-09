@@ -25,19 +25,15 @@
     margin-top: 0px;
     margin-left: 100px;
     margin-right: 100px;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     z-index: 90;
   }
   .contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
     color: white;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .contacts .dontWorry {
     font-size: 14px;
@@ -54,11 +50,9 @@
     width: 75%;
     -o-object-fit: cover;
        object-fit: cover;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
 }
-
 @media (max-width: 1350px) and (min-width: 1080px) {
   .nav-bar #nav-left {
     padding-left: 75px;
@@ -72,8 +66,7 @@
     /*-------PATTERN------------------------------*/
   }
   .home-left .whole-pattern {
-    -webkit-transform: scale(0.33);
-            transform: scale(0.33);
+    transform: scale(0.33);
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -82,20 +75,12 @@
     translate: -34%;
   }
   .home-left .shapes:hover {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   .home-right {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: flex-start;
+    flex-direction: column;
     padding-top: 50px;
     padding-right: 75px;
     width: 200px;
@@ -119,7 +104,6 @@
     width: 75%;
     -o-object-fit: cover;
        object-fit: cover;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   .white-gradient {
@@ -145,26 +129,21 @@
     margin-top: 0px;
     margin-left: 75px;
     margin-right: 75px;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     z-index: 90;
   }
   .contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-left: 75px;
     padding-right: 75px;
     color: white;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .contacts .dontWorry {
     font-size: 14px;
     display: none;
   }
 }
-
 @media (max-width: 1080px) and (min-width: 993px) {
   .nav-bar #nav-left {
     padding-left: 75px;
@@ -178,8 +157,7 @@
     /*-------PATTERN------------------------------*/
   }
   .home-left .whole-pattern {
-    -webkit-transform: scale(0.27);
-            transform: scale(0.27);
+    transform: scale(0.27);
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -188,27 +166,17 @@
     translate: -37%;
   }
   .home-left .shapes:hover {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   .home-right {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: flex-start;
+    flex-direction: column;
     padding-top: 50px;
     padding-right: 75px;
     width: 500px;
     max-height: 470px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     line-height: 20px;
   }
   .home-right .tuesday {
@@ -246,7 +214,6 @@
     width: 85%;
     -o-object-fit: cover;
        object-fit: cover;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   .white-gradient {
@@ -274,26 +241,21 @@
     margin-top: 0px;
     margin-left: 75px;
     margin-right: 75px;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     z-index: 90;
   }
   .contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-left: 75px;
     padding-right: 75px;
     color: white;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .contacts .dontWorry {
     font-size: 14px;
     display: none;
   }
 }
-
 @media (max-width: 992px) and (min-width: 688px) {
   /*------------------------------------IPADS------------------*/
   /*--------NavBar1------------------------------*/
@@ -321,11 +283,7 @@
   }
   #whole-home {
     padding-top: 120px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-transition: 0.5s;
+    flex-direction: column;
     transition: 0.5s;
   }
   .intro {
@@ -336,9 +294,7 @@
   .home-left {
     padding-left: 50px;
     width: 88%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .home-left h1 {
     font-size: 10em;
@@ -362,10 +318,7 @@
   .home-right {
     width: 88%;
     padding: 0px 50px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   /*--------------------ABOUT---------------*/
   .aboutme {
@@ -399,7 +352,6 @@
     width: 88%;
     -o-object-fit: cover;
        object-fit: cover;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   /*-------CONTACT------------------------------*/
@@ -428,32 +380,27 @@
     margin-top: 0px;
     margin-left: 50px;
     margin-right: 50px;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     z-index: 90;
   }
   .contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
     color: white;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .contacts .dontWorry {
     font-size: 14px;
     display: none;
   }
   .custom,
-  .custom1,
-  .custom2,
-  .custom3 {
+.custom1,
+.custom2,
+.custom3 {
     cursor: auto;
   }
 }
-
 @media (max-width: 688px) {
   /*------------------------------------PHONE------------------*/
   .intro {
@@ -486,11 +433,7 @@
   }
   #whole-home {
     padding-top: 90px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-transition: 0.5s;
+    flex-direction: column;
     transition: 0.5s;
   }
   .intro {
@@ -502,9 +445,7 @@
     padding-left: 25px;
     padding-top: 30px;
     width: 86%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .home-left h1 {
     font-size: 6em;
@@ -520,19 +461,13 @@
     display: none;
   }
   .home-right {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     padding: 0px 25px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   /*-------ABOUT LINK------------------------------*/
   .aboutme .hiddentxt {
     padding-top: 125px;
-    -webkit-transition: 0s;
     transition: 0s;
     margin-top: 0px;
   }
@@ -566,7 +501,6 @@
     width: 88%;
     -o-object-fit: cover;
        object-fit: cover;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   /*---------CONTACT------------------------------*/
@@ -595,32 +529,27 @@
     margin-top: 0px;
     margin-left: 25px;
     margin-right: 25px;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     z-index: 90;
   }
   .contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-left: 25px;
     padding-right: 25px;
     color: white;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .contacts .dontWorry {
     font-size: 14px;
     display: none;
   }
   .custom,
-  .custom1,
-  .custom2,
-  .custom3 {
+.custom1,
+.custom2,
+.custom3 {
     cursor: auto;
   }
 }
-
 @media (max-width: 400px) {
   h3 {
     font-size: 6.5em;
@@ -632,7 +561,6 @@
     font-size: 13px;
   }
 }
-
 @media (max-width: 340px) {
   #whole-home {
     padding-top: 50px;
@@ -642,7 +570,6 @@
   }
   .aboutme .hiddentxt {
     padding-top: 125px;
-    -webkit-transition: 0s;
     transition: 0s;
     font-size: 700%;
     margin-top: 0px;
@@ -650,5 +577,4 @@
   .aboutme .hiddentxt:hover {
     font-size: 700%;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
