@@ -25,165 +25,162 @@ a:active {
 /*--------Start------------------------------*/
 
 .container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-  
-  html,
-  body {
-    margin: 0px;
-    padding: 0px;
-    font-family: "HelveticaNeue-Light";
-  }
-  
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "HelveticaNeue-Light";
+}
+
 /*--------------NAVBAR-------------------*/
 
-  .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 100;
-    transition: transform 3s;
-    min-width: 100%;
-    padding-right: 100px;
-    font-size: 14px;
-    height: 70px;
-    align-items: center;
-    color: white;
-  }
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  transition: transform 3s;
+  min-width: 100%;
+  padding-right: 100px;
+  font-size: 14px;
+  height: 70px;
+  align-items: center;
+  color: white;
+}
 
-  .leo {
-    color: white;
-  }
-  .nav-dot {
-    cursor: url("./images/minimouse.png") 0 20, auto;
-  }
+.leo {
+  color: white;
+}
+.nav-dot {
+  cursor: url("./images/minimouse.png") 0 20, auto;
+}
 
-  .nav-dot1 {
-    cursor: url("./images/minimouse1.png") 20 20, auto;
-  }
+.nav-dot1 {
+  cursor: url("./images/minimouse1.png") 20 20, auto;
+}
 
-  .nav-dot2 {
-    cursor: url("./images/minimouse2.png") 20 20, auto;
-  }
-  
-  .hamburger {
-    font-size: 30px;
-    height: 17px;
-    font-family: "Poppins", sans-serif;
-    position: relative;
-    bottom: 20px;
-    display: block;
-    padding-right: 25px;
-    color: white;
-  }
+.nav-dot2 {
+  cursor: url("./images/minimouse2.png") 20 20, auto;
+}
 
-  #nav-left {
-    padding-left: 25px;
-  }
+.hamburger {
+  font-size: 30px;
+  height: 17px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  bottom: 20px;
+  display: block;
+  padding-right: 25px;
+  color: white;
+}
 
-  #nav-right {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 50px;
-    max-height: 18px;
-      display: none;
-      padding-right: 0px;
-  }
+#nav-left {
+  padding-left: 25px;
+}
 
-  /*--------NavBar2------------------------------*/
-  
-  .navbar2 {
-    height: 75px;
-    background-color: white;
-    color: black;
-  }
-  
-  .hamburger2 {
-    color: black;
-  }
+#nav-right {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  max-height: 18px;
+  display: none;
+  padding-right: 0px;
+}
 
-  .leo2 {
-   color: rgb(0, 0, 0);
-  }
+/*--------NavBar2------------------------------*/
 
-  .nav--hidden {
-    position: absolute !important;
-    top: -999px !important;
-    left: -999px !important;
-  }
-  
-  /*--------Front-page------------------------------*/
+.navbar2 {
+  height: 75px;
+  background-color: white;
+  color: black;
+}
 
+.hamburger2 {
+  color: black;
+}
 
-  h1 {
-    font-size: 7em;
-    font-family: "Bebas Neue", cursive;
-    line-height: 90px;
-    text-align: left;
-    margin-bottom: 0px;
-  }
+.leo2 {
+  color: rgb(0, 0, 0);
+}
 
+.nav--hidden {
+  position: absolute !important;
+  top: -999px !important;
+  left: -999px !important;
+}
 
-  .showcase {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    padding: 0 20px;
-  }
-  
-  .video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  
-  .video-container video {
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-  }
-  
-  .video-container:after {
-    content: '';
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    opacity: 70%;
-  }
+/*--------Front-page------------------------------*/
 
-  .content {
-    z-index: 2;
-    color: white;
-  }
+h1 {
+  font-size: 7em;
+  font-family: "Bebas Neue", cursive;
+  line-height: 90px;
+  text-align: left;
+  margin-bottom: 0px;
+}
 
-  .arrow {
-    color: white;
-    font-size: 50px;
-  }
-  
-  
- /*--------ABOUT------------------------------*/
+.showcase {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.video-container:after {
+  content: "";
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  opacity: 70%;
+}
+
+.content {
+  z-index: 2;
+  color: white;
+}
+
+.arrow {
+  color: white;
+  font-size: 50px;
+}
+
+/*--------ABOUT------------------------------*/
 
 h2 {
   font-size: 3em;
   font-family: "Poppins", sans-serif;
-  padding-left: 25px; 
+  padding-left: 25px;
   padding-top: 30px;
 }
 
@@ -197,45 +194,45 @@ h2 {
   margin-bottom: 40px;
 }
 
-.description  {
+.description {
   font-size: 2.5em;
   font-family: "Poppins", sans-serif;
-  padding-left: 25px; 
+  padding-left: 25px;
   padding-right: 25px;
   margin-bottom: 0px;
 }
 
-.description2  {
+.description2 {
   font-size: 1em;
   font-family: "Poppins", sans-serif;
-  padding-left: 25px; 
+  padding-left: 25px;
   padding-right: 25px;
 }
 
- .rest {
+.rest {
   height: 500px;
 }
 
- /*--------SKILLS------------------------------*/
+/*--------SKILLS------------------------------*/
 
- h3 {
+h3 {
   font-size: 3em;
   font-family: "Poppins", sans-serif;
-  padding-left: 25px; 
+  padding-left: 25px;
   padding-top: 0px;
   margin-bottom: 20px;
   margin-top: 75px;
- }
+}
 
- .skills {
+.skills {
   font-size: 1em;
   font-family: "Poppins", sans-serif;
-  padding-left: 25px; 
+  padding-left: 25px;
   padding-right: 25px;
- }
+}
 
 .skill-title {
-padding-top: 10px;
+  padding-top: 10px;
 }
 
 .skill-list {
@@ -248,81 +245,83 @@ padding-top: 10px;
   padding-top: 10px;
 }
 
-
- /*--------EDUCATION------------------------------*/
-
+/*--------EDUCATION------------------------------*/
 
 h4 {
   font-size: 3em;
   font-family: "Poppins", sans-serif;
-  padding-left: 25px; 
+  padding-left: 25px;
   padding-top: 0px;
   margin-bottom: 20px;
   margin-top: 75px;
- }
+}
 
- .education {
+.education {
   font-size: 1em;
   font-family: "Poppins", sans-serif;
-  padding-left: 25px; 
+  padding-left: 25px;
   padding-right: 25px;
- }
+}
 
-  /*--------CV------------------------------*/
+/*--------CV------------------------------*/
 
-  .cv-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+.cv-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
+.cv-btn {
+  border-radius: 100px;
+  color: white;
+  background-color: rgb(230, 102, 102);
+  height: 150px;
+  width: 150px;
+  border: none;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+}
 
-  .cv-btn {
-    border-radius: 100px;
-    color: white;
-    background-color: rgb(230, 102, 102);
-    height: 150px;
-    width: 150px;
-    border: none;
-    font-size: 1em;
-    font-family: "Poppins", sans-serif;
-  }
+/*--------CONTACT------------------------------*/
 
-    /*--------CONTACT------------------------------*/
-
-  .white-gradient {
-    width: 1440px;
-    height: 250px;
-    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.523), rgba(255, 255, 255, 0));
-    position: relative;
-    top: 250px;
-    margin-top: -150px;
-  }
-  
+.white-gradient {
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.523),
+    rgba(255, 255, 255, 0)
+  );
+  position: relative;
+  margin-top: -150px;
+  width: 100%;
+  height: 80px;
+  top: 155px;
+  padding-top: 75px;
+}
 
 .gradient {
   z-index: -1;
-  width: 1440px;
   position: absolute;
-  height: 900px;
   opacity: 80%;
   margin: 0%;
+  width: 100%;
+  height: 475px;
 }
 
 h5 {
   padding: 0px 100px 0px 100px;
-  font-size: 250px;
-  line-height: 190px;
-  letter-spacing: -10px;
   z-index: 2;
   position: relative;
-  padding-top: 300px;
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
   margin: 0px;
+  padding: 25px;
+  font-size: 7.5em;
+  line-height: 0.75em;
+  letter-spacing: -2px;
+  padding-top: 160px;
 }
 
 .dot {
@@ -331,8 +330,10 @@ h5 {
 }
 
 .hr {
-  margin-top: 25px;
-  padding-left: 75px;
+  z-index: 90;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
   border: 2px solid rgb(255, 255, 255);
   z-index: 90;
 }
@@ -344,6 +345,8 @@ h5 {
   color: white;
   gap: 15px;
   justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .contacts #linkedin {
   color: white;
@@ -356,45 +359,9 @@ h5 {
   color: rgb(255, 255, 255);
 }
 .contacts .dontWorry {
-  font-size: 14px;
-}
-
-.white-gradient {
-  width: 100%;
-  height: 80px;
-  top: 155px;
-  padding-top: 75px;
-}
-.gradient {
-  z-index: -1;
-  width: 100%;
-  position: absolute;
-  height: 475px;
-  opacity: 80%;
-  margin: 0%;
-}
-h5 {
-  padding: 25px;
-  font-size: 7.5em;
-  line-height: 0.75em;
-  letter-spacing: -2px;
-  padding-top: 160px;
-}
-.hr {
-  margin-top: 0px;
-  margin-left: 25px;
-  margin-right: 25px;
-  border: 2px solid rgb(255, 255, 255);
-  z-index: 90;
-}
-.contacts {
-  display: flex;
-  padding-left: 25px;
-  padding-right: 25px;
-  color: white;
-  justify-content: space-between;
-}
-.contacts .dontWorry {
-  font-size: 14px;
+  font-size: 12px;
   display: none;
 }
+
+/*--------SORT!!!!!!------------------------------*/
+

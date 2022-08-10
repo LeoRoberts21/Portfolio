@@ -1,0 +1,52 @@
+@media (max-width: 992px) and (min-width: 688px) {
+  .meimg {
+    width: 500px;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  h2 {
+    padding-left: 50px;
+  }
+
+  .description,
+  .description2,
+  h3,
+  h4,
+  h5,
+  .skills,
+  .contacts {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .description2 {
+    margin-bottom: 0px;
+  }
+  .hobbies {
+    display: flex;
+    align-items: flex-end;
+  }
+  .meimg2 {
+    margin-bottom: 0px;
+  }
+
+  .education {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .office {
+    margin-top: 20px;
+    margin-right: 0px;
+    height: 33vh;
+    width: auto;
+  }
+
+  .hr {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
