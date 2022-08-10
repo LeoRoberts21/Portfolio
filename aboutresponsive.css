@@ -1,5 +1,172 @@
-@media (max-width: 992px) and (min-width: 688px) {
+@media (max-width: 1350px) and (min-width: 688px) {
+  
+    #nav-left {
+        padding-left: 50px;
+      }
+
+      .hamburger {
+        padding-right: 50px;
+      }
+  
+    .meimg {
+    width: 500px;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  h2 {
+    padding-left: 50px;
+  }
+
+  .description,
+  .description2,
+  h3,
+  h4,
+  h5,
+  .skills,
+  .contacts {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .description2 {
+    margin-bottom: 0px;
+  }
+  .hobbies {
+    display: flex;
+    align-items: flex-end;
+  }
+  .meimg2 {
+    margin-bottom: 0px;
+  }
+
+  .education {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .office {
+    margin-top: 20px;
+    margin-right: 0px;
+    height: 33vh;
+    width: auto;
+  }
+
+  .hr {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+}
+
+@media (max-width: 1080px) and (min-width: 992px) {
+  .description2 {
+    width: 70vh;
+  }
+}
+
+@media (max-width: 1350px) and (min-width: 1080px) {
+    
+    #nav-left {
+        padding-left: 75px;
+      }
+
+      .hamburger {
+        display: none;
+      }
+  
+      #nav-right {
+        display:flex;
+        color: white;
+        padding-right: 75px;
+      }
+    .meimg {
+    margin-left: 75px;
+  }
+
+  h2 {
+    padding-left: 75px;
+  }
+
+  .description,
+  .description2,
+  h3,
+  h4,
+  h5,
+  .skills,
+  .contacts {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+
+  .education {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  .hr {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .description {
+    width: 135vh;
+  }
+  
+  .description2 {
+    width: 70vh;
+  }
+
+
+  .hike {
+    padding-left: 50px;
+  }
+
   .meimg {
+    width: 70vh;
+  }
+
+  .meimg2 {
+    margin-right: 0px;
+  }
+
+
+    .white-gradient {
+      padding-top: 100px;
+      display: none;
+    }
+    
+    .gradient {
+      height: 750px;
+      opacity: 80%;
+    }
+    
+    h5 {
+      padding: 25px 75px;
+      font-size: 13em;
+      line-height: 0.75em;
+      letter-spacing: -2px;
+      padding-top: 250px;
+    }
+    
+    .office {
+        margin-right: 150px;
+    }
+}
+@media (min-width: 1350px) and (max-width: 1600px) {
+
+    #nav-left {
+        padding-left: 50px;
+      }
+
+      .hamburger {
+        padding-right: 50px;
+      }
+  
+    .meimg {
     width: 500px;
     text-align: left;
     margin-left: 50px;
@@ -50,3 +217,5 @@
     margin-right: 50px;
   }
 }
+
+/* FIX AROUND 750PX */
