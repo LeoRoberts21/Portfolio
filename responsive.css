@@ -466,6 +466,9 @@
     flex-direction: column;
   }
   /*-------ABOUT LINK------------------------------*/
+  .aboutme {
+    padding-top: 150px;
+  }
   .aboutme .hiddentxt {
     padding-top: 125px;
     transition: 0s;
