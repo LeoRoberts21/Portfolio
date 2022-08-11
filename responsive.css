@@ -459,7 +459,7 @@
   }
   .intro {
     margin-top: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
     font-size: 16px;
   }
   .home-left {
@@ -485,8 +485,8 @@
     justify-content: space-between;
     padding: 0px 25px;
     flex-direction: column;
-    height: 200px;
-    padding-bottom: 150px;
+    height: 100px;
+    padding-bottom: 100px;
   }
   /*-------ABOUT LINK------------------------------*/
   .aboutme {
