@@ -1,14 +1,13 @@
 @media (max-width: 1350px) and (min-width: 688px) {
-  
-    #nav-left {
-        padding-left: 50px;
-      }
+  #nav-left {
+    padding-left: 50px;
+  }
 
-      .hamburger {
-        padding-right: 50px;
-      }
-  
-    .meimg {
+  .hamburger {
+    padding-right: 50px;
+  }
+
+  .meimg {
     width: 500px;
     text-align: left;
     margin-left: 50px;
@@ -40,6 +39,7 @@
     margin-bottom: 0px;
   }
 
+
   .education {
     padding-left: 50px;
     padding-right: 50px;
@@ -58,31 +58,42 @@
     margin-left: 50px;
     margin-right: 50px;
   }
-
 }
 
 @media (max-width: 1080px) and (min-width: 992px) {
   .description2 {
     width: 70vh;
   }
+
+  .gradient {
+    height: 750px;
+    opacity: 80%;
+  }
+
+  h5 {
+    padding: 25px 75px;
+    font-size: 13em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 250px;
+  }
 }
 
 @media (max-width: 1350px) and (min-width: 1080px) {
-    
-    #nav-left {
-        padding-left: 75px;
-      }
+  #nav-left {
+    padding-left: 75px;
+  }
 
-      .hamburger {
-        display: none;
-      }
-  
-      #nav-right {
-        display:flex;
-        color: white;
-        padding-right: 75px;
-      }
-    .meimg {
+  .hamburger {
+    display: none;
+  }
+
+  #nav-right {
+    display: flex;
+    color: white;
+    padding-right: 75px;
+  }
+  .meimg {
     margin-left: 75px;
   }
 
@@ -100,7 +111,6 @@
     padding-left: 75px;
     padding-right: 75px;
   }
-
 
   .education {
     padding-left: 75px;
@@ -112,17 +122,14 @@
     margin-right: 75px;
   }
 
-  .description {
-    width: 135vh;
-  }
-  
+
   .description2 {
     width: 70vh;
   }
 
-
   .hike {
     padding-left: 50px;
+    max-width: 40vh;
   }
 
   .meimg {
@@ -133,47 +140,56 @@
     margin-right: 0px;
   }
 
+  .white-gradient {
+    padding-top: 100px;
+    display: none;
+  }
 
-    .white-gradient {
-      padding-top: 100px;
-      display: none;
-    }
-    
-    .gradient {
-      height: 750px;
-      opacity: 80%;
-    }
-    
-    h5 {
-      padding: 25px 75px;
-      font-size: 13em;
-      line-height: 0.75em;
-      letter-spacing: -2px;
-      padding-top: 250px;
-    }
-    
-    .office {
-        margin-right: 150px;
-    }
+  .gradient {
+    height: 750px;
+    opacity: 80%;
+  }
+
+  h5 {
+    padding: 25px 75px;
+    font-size: 13em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 250px;
+  }
+
+  .office {
+    margin-right: 150px;
+  }
 }
-@media (min-width: 1350px) and (max-width: 1600px) {
+@media (min-width: 1350px) and (max-width: 2560px) {
+  .nav-bar {
+    width: 100%;
+    font-size: 1em;
+  }
 
-    #nav-left {
-        padding-left: 50px;
-      }
+  #nav-left {
+    padding-left: 100px;
+  }
 
-      .hamburger {
-        padding-right: 50px;
-      }
-  
-    .meimg {
-    width: 500px;
+  #nav-right {
+    display: flex;
+    color: white;
+    padding-right: 100px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .meimg {
+    width: 700px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 100px;
   }
 
   h2 {
-    padding-left: 50px;
+    padding-left: 100px;
   }
 
   .description,
@@ -183,10 +199,19 @@
   h5,
   .skills,
   .contacts {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
+  .description {
+    font-size: 3.5em;
+  }
+
+
+  .description2 {
+    width: 70vh;
+    font-size: 1.5em;
+  }
   .description2 {
     margin-bottom: 0px;
   }
@@ -194,13 +219,138 @@
     display: flex;
     align-items: flex-end;
   }
+
+  .hike {
+    padding-left: 50px;
+  }
+
   .meimg2 {
     margin-bottom: 0px;
   }
 
+  .skill-list {
+    font-size: 2.25em;
+  }
+
+  .skill-title {
+    font-size: 1.5em;
+  }
+
   .education {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+  }
+
+  .office {
+    margin-top: 20px;
+    margin-right: 0px;
+    height: 35vh;
+    width: auto;
+  }
+
+  .hr {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .white-gradient {
+    padding-top: 100px;
+    display: none;
+  }
+
+  .gradient {
+    height: 750px;
+    opacity: 80%;
+  }
+
+  h5 {
+    padding: 25px 75px;
+    font-size: 13em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 250px;
+  }
+
+  .cv-btn {
+    font-size: 1.5em;
+    height: 200px;
+    width: 200px;
+  }
+
+  .contacts {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .nav-bar {
+    width: 100%;
+  }
+
+  #nav-left {
+    padding-left: 100px;
+  }
+
+
+  #nav-right {
+    display: flex;
+    color: white;
+    padding-right: 100px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .meimg {
+    width: 700px;
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  h2 {
+    padding-left: 100px;
+  }
+
+  .description,
+  .description2,
+  h3,
+  h4,
+  h5,
+  .skills,
+  .contacts {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .description2 {
+    width: 70vh;
+  }
+  .description2 {
+    margin-bottom: 0px;
+  }
+  .hobbies {
+    display: flex;
+    align-items: flex-end;
+    width: 150vh;
+  }
+
+  .hike {
     padding-left: 50px;
-    padding-right: 50px;
+    max-width: 40vh;
+  }
+
+  .meimg2 {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+
+  .education {
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     justify-content: space-between;
   }
@@ -213,9 +363,194 @@
   }
 
   .hr {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .white-gradient {
+    padding-top: 100px;
+    display: none;
+  }
+
+  .gradient {
+    height: 950px;
+    opacity: 80%;
+  }
+
+  h5 {
+    padding: 25px 75px;
+    font-size: 19em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 250px;
   }
 }
 
-/* FIX AROUND 750PX */
+@media (min-width: 1900px) {
+  .meimg {
+    width: 80vh;
+  }
+
+  .nav-bar {
+    font-size: 1em;
+  }
+
+  .gradient {
+    height: 1000px;
+    opacity: 80%;
+  }
+
+  h5 {
+    padding: 25px 75px;
+    font-size: 20em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 300px;
+  }
+  .description {
+    width: 130vh;
+  }
+
+  .office {
+    margin-top: 20px;
+    margin-right: 0px;
+    height: 45vh;
+    width: auto;
+  }
+}
+@media (min-width: 2250px) {
+  .nav-bar {
+    font-size: 1.5em;
+  }
+
+  .meimg {
+    width: 1000px;
+  }
+
+
+  .description {
+    font-size: 4em;
+  }
+
+
+  .description2 {
+    width: 90vh;
+    font-size: 2em;
+  }
+
+  .hike {
+    width: 600px;
+  }
+
+
+  .skill-list {
+    font-size: 2.75em;
+  }
+
+  .skill-title {
+    font-size: 2em;
+  }
+
+  .education {
+    font-size: 2em;
+  }
+
+  .office {
+    margin-top: 20px;
+    margin-right: 0px;
+    height: 35vh;
+    width: auto;
+  }
+
+  .gradient {
+    height: 1000px;
+    opacity: 80%;
+  }
+
+  h5 {
+    padding: 25px 75px;
+    font-size: 20em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 300px;
+  }
+
+  .cv-btn {
+    font-size: 1.5em;
+    height: 200px;
+    width: 200px;
+  }
+
+  .contacts {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (max-width: 688px) {
+.meimg2 {
+  margin-top: 75px;
+}
+
+h3 {
+  margin-top: 125px;
+}
+
+h4 {
+  margin-top: 125px;
+}
+
+.cv-section {
+  padding-top: 125px;
+  padding-bottom: 125px;
+} 
+}
+
+@media (max-width: 400px) {
+  h5 {
+    font-size: 6.5em;
+  }
+  .hr {
+    max-width: 85%;
+  }
+
+  .nav-bar {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 340px) {
+  #whole-home {
+    padding-top: 50px;
+  }
+
+  h5 {
+    font-size: 5.5em;
+  }
+
+  .hiddentxt {
+    padding-top: 125px;
+    transition: 0s;
+    font-size: 700%;
+    margin-top: 0px;
+  }
+
+  .hiddentxt:hover {
+    font-size: 700%;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 688px) {
+  .office {
+    width: 600px;
+    height: auto;
+  }
+
+  .hobbies {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+

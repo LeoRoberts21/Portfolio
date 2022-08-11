@@ -1,7 +1,33 @@
 /*------------------------------------MEDIA-QUERIES------------------*/
 
+@media (min-width: 1700px) {
+  .nav-bar {
+    font-size: 1em;
+  }
 
-@media (min-width: 1350px) and (max-width: 1600px) {
+  #whole-home {
+    font-size: 1.3em;
+    padding-bottom: 200px;
+  }
+
+  .intro {
+    padding-top: 50px;
+  }
+
+  .description{
+    line-height: 30px;
+  }
+
+  .home-right {
+    height: 650px
+  }
+
+  .space-out {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1350px) and (max-width: 2500px) { //make font sizes 0.5em bigger 
 
   .white-gradient {
    width:2000px;
@@ -568,7 +594,7 @@ h3 {
   /*-------ABOUT LINK------------------------------*/
 
   .aboutme {
-    padding-top: 150px;
+    padding-top: 50px;
     .hiddentxt {
       padding-top: 125px;
       transition: 0s;
