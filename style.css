@@ -11,7 +11,7 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "HelveticaNeue-Light";
+  font-family: "Poppins", sans-serif;
 }
 
 a:link {
@@ -46,6 +46,7 @@ a:active {
   padding-right: 100px;
   height: 150px;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 .nav-bar .hamburger {
   font-size: 30px;

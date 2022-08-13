@@ -33,7 +33,7 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "HelveticaNeue-Light";
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------NAVBAR-------------------*/
@@ -50,6 +50,7 @@ body {
   height: 70px;
   align-items: center;
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .leo {

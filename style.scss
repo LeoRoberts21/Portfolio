@@ -18,7 +18,7 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  font-family: $helvetica;
+  font-family: "Poppins", sans-serif;
   // cursor: url("./images/maincursor.png") 0 20, auto;
 }
 
@@ -55,6 +55,7 @@ a:active {
   padding-right: 100px;
   height: 150px;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 
   .hamburger {
     font-size: 30px;
@@ -253,7 +254,6 @@ h2 {
   padding-top: 50px;
   font-size: 35px;
 }
-
 
 .selected-projects {
   text-align: center;
