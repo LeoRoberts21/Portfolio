@@ -1,4 +1,9 @@
 /*------------------------------------MEDIA-QUERIES------------------*/
+@media (min-width: 2250px) {
+  .nav-bar {
+    font-size: 1.5em;
+  }
+}
 
 @media (min-width: 1700px) {
   .nav-bar {
@@ -14,12 +19,12 @@
     padding-top: 50px;
   }
 
-  .description{
+  .description {
     line-height: 30px;
   }
 
   .home-right {
-    height: 650px
+    height: 650px;
   }
 
   .space-out {
@@ -27,15 +32,26 @@
   }
 }
 
-@media (min-width: 1350px) and (max-width: 2500px) { //make font sizes 0.5em bigger 
+@media (min-width: 1350px) and (max-width: 2500px) {
+  //make font sizes 0.5em bigger
 
+  .nav-bar {
+    #nav-left {
+      padding-left: 75px;
+    }
+
+    #nav-right {
+      padding-right: 75px;
+      height: 25px;
+    }
+  }
   .white-gradient {
-   width:2000px;
+    width: 2000px;
     height: 80px;
     top: 200px;
     padding-top: 125px;
   }
-  
+
   .gradient {
     z-index: -1;
     width: 100%;
@@ -44,7 +60,7 @@
     opacity: 80%;
     margin: 0%;
   }
-  
+
   h3 {
     padding: 25px 100px;
     font-size: 15em;
@@ -52,7 +68,7 @@
     letter-spacing: -2px;
     padding-top: 260px;
   }
-  
+
   .hr {
     margin-top: 0px;
     margin-left: 100px;
@@ -60,14 +76,14 @@
     border: 2px solid rgb(255, 255, 255);
     z-index: 90;
   }
-  
+
   .contacts {
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
     color: white;
     justify-content: space-between;
-  
+
     .dontWorry {
       font-size: 14px;
       display: none;
@@ -86,8 +102,7 @@
       object-fit: cover;
       transition: 0.5s;
     }
-}
-
+  }
 }
 
 @media (max-width: 1350px) and (min-width: 1080px) {
@@ -98,6 +113,7 @@
 
     #nav-right {
       padding-right: 75px;
+      height: 25px;
     }
   }
 
@@ -132,7 +148,6 @@
     position: relative;
     left: 100px;
 
-
     .tuesday {
       position: relative;
       top: 13.5px;
@@ -151,52 +166,50 @@
       object-fit: cover;
       transition: 0.5s;
     }
-}
-
-.white-gradient {
-width: 100%;
-  padding-top: 100px;
-}
-
-.gradient {
-  z-index: -1;
-  width: 100%;
-  position: absolute;
-  height: 750px;
-  opacity: 80%;
-  margin: 0%;
-}
-
-h3 {
-  padding: 25px 75px;
-  font-size: 13em;
-  line-height: 0.75em;
-  letter-spacing: -2px;
-  padding-top: 250px;
-}
-
-.hr {
-  margin-top: 0px;
-  margin-left: 75px;
-  margin-right: 75px;
-  border: 2px solid rgb(255, 255, 255);
-  z-index: 90;
-}
-
-.contacts {
-  display: flex;
-  padding-left: 75px;
-  padding-right: 75px;
-  color: white;
-  justify-content: space-between;
-
-  .dontWorry {
-    font-size: 14px;
-    display: none;
   }
-}
 
+  .white-gradient {
+    width: 100%;
+    padding-top: 100px;
+  }
 
+  .gradient {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    height: 750px;
+    opacity: 80%;
+    margin: 0%;
+  }
+
+  h3 {
+    padding: 25px 75px;
+    font-size: 13em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 250px;
+  }
+
+  .hr {
+    margin-top: 0px;
+    margin-left: 75px;
+    margin-right: 75px;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 90;
+  }
+
+  .contacts {
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: white;
+    justify-content: space-between;
+
+    .dontWorry {
+      font-size: 14px;
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 1080px) and (min-width: 993px) {
@@ -207,6 +220,7 @@ h3 {
 
     #nav-right {
       padding-right: 75px;
+      height: 25px;
     }
   }
 
@@ -275,7 +289,6 @@ h3 {
     padding-top: 80px;
     text-align: center;
 
-
     .project-image {
       background-color: black;
       height: 575px;
@@ -329,8 +342,6 @@ h3 {
       display: none;
     }
   }
-
-
 }
 
 @media (max-width: 992px) and (min-width: 688px) {
@@ -440,7 +451,6 @@ h3 {
     padding-left: 50px;
     padding-right: 50px;
   }
-
 
   .selected-projects {
     padding: 0px;
@@ -557,7 +567,7 @@ h3 {
   }
 
   .intro {
-    margin-top:25px;
+    margin-top: 25px;
     padding-bottom: 25px;
     font-size: 16px;
   }
@@ -671,8 +681,8 @@ h3 {
 
   .hr {
     margin-top: 0px;
-margin-left: 25px;
-margin-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
     border: 2px solid rgb(255, 255, 255);
     z-index: 90;
   }

@@ -86,7 +86,7 @@ body {
 #nav-right {
   justify-content: space-evenly;
   gap: 50px;
-  max-height: 18px;
+  height: 21px;
   display: none;
   padding-right: 100px;
 }

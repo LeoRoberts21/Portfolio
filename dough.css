@@ -46,7 +46,7 @@
 #nav-right {
   justify-content: space-evenly;
   gap: 50px;
-  max-height: 18px;
+  height: 25px;
   display: none;
   padding-right: 100px;
 }
@@ -150,6 +150,11 @@ h3 {
   padding-left: 0px;
 }
 
+.row2 {
+  display: flex;
+  gap: 50px;
+  padding: 0px;
+}
 /*--------Grid------------------------------*/
 
 .card {

@@ -160,6 +160,7 @@
     margin-right: 150px;
   }
 }
+
 @media (min-width: 1350px) and (max-width: 2560px) {
   .nav-bar {
     width: 100%;
@@ -174,6 +175,7 @@
     display: flex;
     color: white;
     padding-right: 100px;
+    height: 25px;
   }
 
   .hamburger {
@@ -388,13 +390,19 @@
   }
 
   .nav-bar {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .gradient {
     height: 1000px;
     opacity: 80%;
   }
+
+
+  #nav-right {
+    height: 35px;
+  }
+
 
   h5 {
     padding: 25px 75px;
@@ -433,6 +441,7 @@
     font-size: 1.5em;
   }
 }
+
 @media (min-width: 2250px) {
   .nav-bar {
     font-size: 1.5em;
