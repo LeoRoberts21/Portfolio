@@ -11,7 +11,8 @@ Finished, but will continue updating with new projects.
 
 ## How to access
 
-Just click the link, it's HTML.
+Click this link:
+leoroberts21.github.io/portfolio/
 
 ## Reflection
 
