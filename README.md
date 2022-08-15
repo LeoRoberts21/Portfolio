@@ -11,7 +11,6 @@ Finished, but will continue updating with new projects.
 
 ## How to access
 
-Click this link:
 leoroberts21.github.io/portfolio/
 
 ## Reflection
