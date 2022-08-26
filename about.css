@@ -2,6 +2,12 @@
 
 /*--------Cursor------------------------------*/
 
+
+* {
+  box-sizing: border-box;
+}
+
+
 a:link {
   text-decoration: none;
   color: black;
