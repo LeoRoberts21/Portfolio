@@ -37,8 +37,8 @@
   }
 
   .hr {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .cards {
@@ -522,4 +522,50 @@
   .column {
     font-size: 2em;
   }
+}
+
+@media (max-width:400px) {
+
+  h5 {
+    padding: 25px;
+    font-size: 6.5em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 160px;
+  }
+  .contacts {
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    justify-content: space-between;
+  }
+  .contacts .dontWorry {
+    display: none;
+  }
+
+
+}
+
+@media (max-width:350px) {
+
+  h5 {
+    padding: 25px;
+    font-size: 5em;
+    line-height: 0.75em;
+    letter-spacing: -2px;
+    padding-top: 200px;
+  }
+  .contacts {
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    justify-content: space-between;
+  }
+  .contacts .dontWorry {
+    display: none;
+  }
+
+
 }
