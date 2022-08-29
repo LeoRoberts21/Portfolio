@@ -290,6 +290,13 @@
     font-size: 14px;
     display: none;
   }
+  h2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-catagories {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 992px) and (min-width: 688px) {
   /*------------------------------------IPADS------------------*/
@@ -375,6 +382,8 @@
     margin-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
+    display: flex;
+    flex-direction: column;
   }
   .selected-projects {
     padding: 0px;
@@ -434,6 +443,9 @@
 .custom2,
 .custom3 {
     cursor: auto;
+  }
+  .project-catagories {
+    font-size: 2rem;
   }
 }
 @media (max-width: 688px) {
@@ -529,6 +541,8 @@
     margin-top: 0px;
     padding-left: 25px;
     padding-right: 25px;
+    display: flex;
+    flex-direction: column;
   }
   .selected-projects {
     padding: 0px;
@@ -589,6 +603,9 @@
 .custom3 {
     cursor: auto;
   }
+  .project-catagories {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 400px) {
   h3 {
@@ -599,6 +616,13 @@
   }
   .nav-bar {
     font-size: 13px;
+  }
+  h2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-catagories {
+    font-size: 2rem;
   }
 }
 @media (max-width: 340px) {
@@ -616,5 +640,12 @@
   }
   .aboutme .hiddentxt:hover {
     font-size: 700%;
+  }
+  .project-catagories {
+    font-size: 2rem;
+  }
+  h2 {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=responsive.css.map */
