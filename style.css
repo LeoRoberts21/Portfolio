@@ -43,7 +43,7 @@ a:active {
   z-index: 100;
   transition: transform 3s;
   min-width: 100%;
-  padding-right: 100px;
+  padding-right: 1px;
   height: 150px;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -63,17 +63,17 @@ a:active {
   display: flex;
   justify-content: space-evenly;
   gap: 50px;
-  padding-right: 100px;
+  padding-right: 1px;
   height: 18px;
 }
 .nav-bar #nav-right .nav-dot {
-  cursor: url("./images/minimouse.png") 25 25, auto;
+  cursor: url("./images/minimouse.png") 0 20, auto;
 }
 .nav-bar #nav-right .nav-dot1 {
-  cursor: url("./images/minimouse1.png") 25 25, auto;
+  cursor: url("./images/minimouse1.png") 20 20, auto;
 }
 .nav-bar #nav-right .nav-dot2 {
-  cursor: url("./images/minimouse2.png") 25 25, auto;
+  cursor: url("./images/minimouse2.png") 20 20, auto;
 }
 
 /*--------NavBar2------------------------------*/

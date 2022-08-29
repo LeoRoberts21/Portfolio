@@ -390,7 +390,7 @@
   }
 
   .nav-bar {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .gradient {
@@ -444,7 +444,7 @@
 
 @media (min-width: 2250px) {
   .nav-bar {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .meimg {
