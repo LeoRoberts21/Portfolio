@@ -67,7 +67,7 @@ a:active {
   height: 18px;
 }
 .nav-bar #nav-right .nav-dot {
-  cursor: url("./images/minimouse.png") 0 20, auto;
+  cursor: url("./images/minimouse.png") 20 20, auto;
 }
 .nav-bar #nav-right .nav-dot1 {
   cursor: url("./images/minimouse1.png") 20 20, auto;
@@ -350,3 +350,25 @@ h3 {
 #switchDiv {
   background-color: white;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+.hidden {
+display: none;
+}
+
+.designBtn, .codeBtn {
+font-family: "Poppins", sans-serif;;
+height: 100px;
+width: auto;
+font-size: 1em;
+font-weight: bolder;
+background-color: white;
+border: none;
+}
+
+
+.ul {
+  text-decoration: underline;
+  transition: transform 3s;
+}

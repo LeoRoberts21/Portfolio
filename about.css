@@ -2,16 +2,6 @@
 
 /*--------Cursor------------------------------*/
 
-* {
-  box-sizing: border-box;
-  outline: 1px solid limegreen !important;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
 
 a:link {
   text-decoration: none;

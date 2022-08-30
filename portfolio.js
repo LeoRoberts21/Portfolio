@@ -42,10 +42,27 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// FOR DARK MODE USE .TOGGLE
+// ----------------------------Project switch------------
 
-let switchButton = document.querySelector(".switchButton");
+const codeBtn = document.querySelector(".codeBtn");
+const designBtn = document.querySelector(".designBtn");
+const codeModal = document.querySelector(".codeModal");
+const designModal = document.querySelector(".designModal");
 
-const toggle = function myFunction() {
-  switchButton.classList.add("switchButton");
+const showCode = function () {
+  codeModal.classList.remove("hidden");
+  designModal.classList.add("hidden");
+  designBtn.classList.remove("ul");
+  codeBtn.classList.add("ul");
 };
+
+const showDesign = function () {
+  designModal.classList.remove("hidden");
+  codeModal.classList.add("hidden");
+  codeBtn.classList.remove("ul");
+  designBtn.classList.add("ul");
+};
+
+designBtn.addEventListener("click", showDesign);
+
+codeBtn.addEventListener("click", showCode);
