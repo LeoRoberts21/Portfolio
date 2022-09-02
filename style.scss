@@ -251,8 +251,9 @@ h2 {
 
 .project-catagories {
   gap: 100px;
-  padding-top: 50px;
   font-size: 35px;
+  padding-top: 25px;
+
 }
 
 .selected-projects {
@@ -387,4 +388,23 @@ h3 {
 
 #switchDiv {
   background-color: white;
+}
+
+.hidden {
+  display:none;
+}
+
+.designBtn, .codeBtn {
+  font-family: "Poppins", sans-serif;
+  height: 100px;
+  width: auto;
+  font-size: 1em;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.ul {
+  text-decoration:  underline ;
+  text-decoration-thickness:3px ;
 }

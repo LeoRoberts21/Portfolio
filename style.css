@@ -43,7 +43,7 @@ a:active {
   z-index: 100;
   transition: transform 3s;
   min-width: 100%;
-  padding-right: 1px;
+  padding-right: 100px;
   height: 150px;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -63,11 +63,11 @@ a:active {
   display: flex;
   justify-content: space-evenly;
   gap: 50px;
-  padding-right: 1px;
+  padding-right: 100px;
   height: 18px;
 }
 .nav-bar #nav-right .nav-dot {
-  cursor: url("./images/minimouse.png") 20 20, auto;
+  cursor: url("./images/minimouse.png") 0 20, auto;
 }
 .nav-bar #nav-right .nav-dot1 {
   cursor: url("./images/minimouse1.png") 20 20, auto;
@@ -228,8 +228,8 @@ h2 {
 
 .project-catagories {
   gap: 100px;
-  padding-top: 50px;
   font-size: 35px;
+  padding-top: 25px;
 }
 
 .selected-projects {
@@ -349,26 +349,23 @@ h3 {
 
 #switchDiv {
   background-color: white;
-}/*# sourceMappingURL=style.css.map */
-
-
+}
 
 .hidden {
-display: none;
+  display: none;
 }
 
 .designBtn, .codeBtn {
-font-family: "Poppins", sans-serif;;
-height: 100px;
-width: auto;
-font-size: 1em;
-font-weight: bolder;
-background-color: white;
-border: none;
+  font-family: "Poppins", sans-serif;
+  height: 100px;
+  width: auto;
+  font-size: 1em;
+  background-color: white;
+  border: none;
+  font-weight: bold;
 }
-
 
 .ul {
   text-decoration: underline;
-  transition: transform 3s;
-}
+  text-decoration-thickness: 3px;
+}/*# sourceMappingURL=style.css.map */
