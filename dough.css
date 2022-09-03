@@ -116,7 +116,7 @@ h3 {
 .tools {
 padding-left: 25px;
 }
-
+  
 .links {
   display: flex;
   padding-left: 25px;
@@ -179,4 +179,8 @@ display: block;
   padding-right: 25px;
   padding-top: 75px;
   padding-bottom: 25px;
+}
+
+.toolsSketch {
+  display: flex;
 }

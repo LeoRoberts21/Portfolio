@@ -76,18 +76,6 @@ a:active {
     gap: 50px;
     padding-right: 100px;
     height: 18px;
-
-    .nav-dot {
-      cursor: url("./images/minimouse.png") 0 20, auto;
-    }
-
-    .nav-dot1 {
-      cursor: url("./images/minimouse1.png") 20 20, auto;
-    }
-
-    .nav-dot2 {
-      cursor: url("./images/minimouse2.png") 20 20, auto;
-    }
   }
 }
 
@@ -253,7 +241,6 @@ h2 {
   gap: 100px;
   font-size: 35px;
   padding-top: 25px;
-
 }
 
 .selected-projects {
@@ -407,4 +394,19 @@ h3 {
 .ul {
   text-decoration:  underline ;
   text-decoration-thickness:3px ;
+}
+
+
+
+
+.nav-dot {
+  cursor: url("./images/minimouse.png") 20 20, auto;
+}
+
+.nav-dot1 {
+  cursor: url("./images/minimouse1.png") 20 20, auto;
+}
+
+.nav-dot2 {
+  cursor: url("./images/minimouse2.png") 20 20, auto;
 }

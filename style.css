@@ -66,15 +66,6 @@ a:active {
   padding-right: 100px;
   height: 18px;
 }
-.nav-bar #nav-right .nav-dot {
-  cursor: url("./images/minimouse.png") 0 20, auto;
-}
-.nav-bar #nav-right .nav-dot1 {
-  cursor: url("./images/minimouse1.png") 20 20, auto;
-}
-.nav-bar #nav-right .nav-dot2 {
-  cursor: url("./images/minimouse2.png") 20 20, auto;
-}
 
 /*--------NavBar2------------------------------*/
 .navbar2 {
@@ -368,4 +359,16 @@ h3 {
 .ul {
   text-decoration: underline;
   text-decoration-thickness: 3px;
+}
+
+.nav-dot {
+  cursor: url("./images/minimouse.png") 20 20, auto;
+}
+
+.nav-dot1 {
+  cursor: url("./images/minimouse1.png") 20 20, auto;
+}
+
+.nav-dot2 {
+  cursor: url("./images/minimouse2.png") 20 20, auto;
 }/*# sourceMappingURL=style.css.map */
