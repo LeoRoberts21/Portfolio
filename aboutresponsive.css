@@ -338,7 +338,7 @@
 
   .hike {
     padding-left: 50px;
-    max-width: 40vh;
+    width: 40vh;
   }
 
   .meimg2 {
@@ -398,6 +398,9 @@
     opacity: 80%;
   }
 
+  .description2 {
+    width: 850px;
+  }
 
   #nav-right {
     height: 35px;
@@ -438,7 +441,11 @@
   }
 
   .contacts {
-    font-size: 1.5em;
+    font-size: 1em;
+  }
+
+  .hike {
+      min-width: 600px;
   }
 }
 
@@ -460,9 +467,6 @@
     font-size: 2em;
   }
 
-  .hike {
-    width: 600px;
-  }
 
   .skill-list {
     font-size: 2.75em;
@@ -503,7 +507,7 @@
   }
 
   .contacts {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
