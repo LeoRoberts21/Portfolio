@@ -31,3 +31,4 @@ window.addEventListener("scroll", () => {
     white3.classList.remove("nowhite");
   }
 });
+

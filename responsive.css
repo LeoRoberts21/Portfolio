@@ -461,6 +461,8 @@
   .nav-bar .hamburger {
     display: block;
     padding-right: 25px;
+    margin-right: 25px;
+    margin-top: 40px;
   }
   .nav-bar #nav-left {
     padding-left: 25px;
