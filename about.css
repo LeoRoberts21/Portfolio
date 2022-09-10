@@ -373,7 +373,7 @@ h5 {
   position: absolute;
   top: 1.2rem;
   right: 2rem;
-  font-size: 5rem;
+  font-size: 3rem;
   color: rgb(249, 249, 249);
   cursor: pointer;
   border: none;
@@ -390,7 +390,7 @@ h5 {
 
 .modal1 {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
@@ -415,4 +415,10 @@ h5 {
 
 .overlay-text {
   color: white;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  right: 10px;
+  font-size: 2.5em;
+  font-weight: 200;
 }

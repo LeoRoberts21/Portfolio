@@ -30,16 +30,7 @@
   cursor: url("./images/minimouse2.png") 20 20, auto;
 }
 
-.hamburger {
-  font-size: 30px;
-  height: 17px;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  bottom: 20px;
-  display: block;
-  padding-right: 25px;
-  color: white;
-}
+
 
 #nav-left {
   padding-left: 25px;

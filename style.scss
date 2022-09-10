@@ -410,7 +410,7 @@ h3 {
   position: absolute;
   top: 1.2rem;
   right: 2rem;
-  font-size: 5rem;
+  font-size: 3rem;
   color: rgb(249, 249, 249);
   cursor: pointer;
   border: none;
@@ -427,7 +427,7 @@ h3 {
 
 .modal1 {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
@@ -437,6 +437,8 @@ h3 {
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
+  font-size: 2.5em;
+  height: 270px;
 }
 
 .overlay1 {
@@ -452,4 +454,6 @@ h3 {
 
 .overlay-text {
   color: white;
+  height: 90px;
+  margin: 0px;
 }
