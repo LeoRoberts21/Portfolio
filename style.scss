@@ -258,6 +258,11 @@ h2 {
     width: 70%;
     object-fit: cover;
     transition: 0.5s;
+    border-radius: 50px;
+  }
+  .project-image:hover {
+    border-radius: 500px;
+    transition: 500ms;
   }
 
   .project-caption {
